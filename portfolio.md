@@ -19,13 +19,13 @@ font-weight:bold">
 
 <center>INHA UNIVERSITY</center>
 
-<center>145, Anam-ro, Gangnam-gu, Seoul, Republic of Korea</center>
+<center>100, Inha-ro, Michuhol-gu, Incheon, Republic of Korea</center>
 
 ## Personal Data
 
 ---
 
-> 2001.8.17 대한민국,서울특별시,강남구 출생
+> 2001.8.17 대한민국, 서울특별시, 강남구 출생
 
 > 연락처: kimeunhang@inha.edu
 
