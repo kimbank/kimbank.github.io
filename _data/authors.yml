@@ -35,7 +35,7 @@ vvs:
     # soundcloud:      <username>
     # lastfm:          <username>
     instagram:        banlxx
-    flickr:          photos/144480662@N02
+    flickr:          144480662@N02
     # 500px:           <username>
     # dribbble:        <username>
     # behance:         <username>
@@ -48,6 +48,7 @@ vvs:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
+    paypal:          b4nk01
     github:          kimbank
     # stackoverflow:   <number/username>
     # npm:             <username>
@@ -58,9 +59,8 @@ vvs:
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
-    paypal:          b4nk01
-    # email:           kimeunhang@inha.edu
-    # rss:             
+    # email:           mailto:kimeunhang@inha.edu
+    # rss:             https://kimbank.github.io/feed.xml
 
 # Another author
 author2:
