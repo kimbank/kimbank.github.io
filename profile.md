@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Profile
+title: profile
 menu: true
 order: 1
 ---

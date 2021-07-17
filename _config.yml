@@ -50,7 +50,7 @@ disqus: True
 disqus_shortname: xxxx
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright: "&copy; 2020.12. by 김은행"
+copyright: "&copy; 2021 by 김은행"
 
 # Format of the permalinks
 permalink:
