@@ -1,58 +1,61 @@
 ---
 layout: post
-title:  "개발을 위한 컴퓨터 세팅"
-subtitle:   "python,데이터 사이언티스트, 인공지능 개발자를 위함"
+title: "개발을 위한 컴퓨터 세팅"
+subtitle: "python,데이터 사이언티스트, 인공지능 개발자를 위함"
 categories: etc
 tags: etc
-comments: true
+comments: flase
 ---
+
 ## 개요
+
 > 구글 드라이브 폴더 설치, 아나콘다 설치, 비주얼 스튜디오 코드 설치, Visual Studio code와 Anaconda 터미널 연동
 
 - 목차
-   - [글을 쓰게된 이유](#글을-쓰게된-이유)
-    - [윈도우 포멧](#윈도우-포멧)
-    - [구글드라이브](#구글드라이브)
-    - [Anaconda설치](#아나콘다설치)
-    - [Visual Studio Code](#visualstudiocode-섪치)
- 
+  - [글을 쓰게된 이유](#글을-쓰게된-이유)
+  - [윈도우 포멧](#윈도우-포멧)
+  - [구글드라이브](#구글드라이브)
+  - [Anaconda설치](#아나콘다설치)
+  - [Visual Studio Code](#visualstudiocode-섪치)
 
 ## 글을 쓰게된 이유
+
 ---
+
 깃허브 블로그(Github Pages)를 개설한 이후 슬슬 노트북을 정리할 때라고 생각했다.
 필자는 학교생활하면서 항상 한학기가 끝나면 노트북 포멧을 하였다.
 사실 포멧을 평생해본적이 없다가 (무서워서) 학교생활을 하면서 주변에서 동기들이 여유있을때 포멧을 한다고해서 학기가 끝나고 포멧을 처음 하게된 이후 반년마다 포멧을 하는 편이다.
 
 포멧이 두려운 이유는 노트북에 중요한 파일들을 날릴수 있다는 생각이 가장 큰데 이번 포스팅을 통해 파일관리 팁과 포멧에 두려움을 같이 극복하고자 글을 쓴다
-또한 포멧이후 다시 각종 프로그램들을 다운받으면서 환경설정을 찾아가면서 정해주는것이 싫어서 적어두기위함도 있다. 각종 블로그들은 아나콘다 설치 게시물 따로 비주얼 스튜디오 코드 설치 게시물 따로되어있어서 한꺼번에 보기위함도 있다. 
+또한 포멧이후 다시 각종 프로그램들을 다운받으면서 환경설정을 찾아가면서 정해주는것이 싫어서 적어두기위함도 있다. 각종 블로그들은 아나콘다 설치 게시물 따로 비주얼 스튜디오 코드 설치 게시물 따로되어있어서 한꺼번에 보기위함도 있다.
 이런 편리함과 팁을 공유하기위해 글을 쓰게 되었다.
 
-***
+---
 
 ## 윈도우 포멧
+
 ---
+
 ![그림1](../../../../assets/img/etc/setting_start/1.png){: width="400" height="400}
 위 그림과 같이 윈도우 아이콘에 설정 아이콘을 누릅니다.
-
 
 ![그림2](../../../../assets/img/etc/setting_start/2.png)
 업데이트 보안을 클릭
 
-
 ![그림3](../../../../assets/img/etc/setting_start/3.png){: width="600" height="600}
 이 PC 초기화의 시작 버튼을 누릅니다.
 
-
 ![그림4](../../../../assets/img/etc/setting_start/4.png){: width="600" height="600}
-옵션 선택은 모든 항목제거를 선택 합니다. 
-
+옵션 선택은 모든 항목제거를 선택 합니다.
 
 쭉쭉 진행하면 결국 포멧이 됩니다.
 
-***
+---
 
 ## 구글드라이브
+
 ---
+
 **하지만 포멧을 하기전에!!!**
 
 현재 로컬의 파일들을 안전한곳에 옮겨놔야할것이다. 하지만 외부저장 장치가 없고 파일 옮기는 것이 귀찮다면 이런 포멧하는 행위가 굉장히 하기 싫게 된다.
@@ -63,9 +66,7 @@ comments: true
 
 ![그림5](../../../../assets/img/etc/setting_start/drive.PNG){: width="300" height="300}
 
-
 ![그림6](../../../../assets/img/etc/setting_start/drive02.PNG){: width="300" height="300}
-
 
 ![그림7](../../../../assets/img/etc/setting_start/drive03.PNG){: width="300" height="300}
 
@@ -79,29 +80,22 @@ comments: true
 
 대학교 메일주소를 통해 구글 로그인을 해서 확인해 보자.
 
-
 이제 구글드라이브 폴더를 다운받아보자.
 [Google](https://www.google.com/intl/ko_kr/drive/download/)
 
-
 위 링크로 들어가 아래로 조금 내리면 아래와 같은 화면을 볼수 있다.
 ![그림8](../../../../assets/img/etc/setting_start/drive04.PNG){: width="400" height="400}
-
 
 이중 개인용으로 다운로드한다.
 
 ![그림9](../../../../assets/img/etc/setting_start/drive05.PNG){: width="400" height="400}
 
-
 installer가 설치되었다.
 ![그림10](../../../../assets/img/etc/setting_start/drive06.PNG)
 
-
 installer를 통해 구글 드라이브 설치를 진행한다.
 
-
 대학교 계정으로 로그인을 한다.
-
 
 ![그림11](../../../../assets/img/etc/setting_start/drive07.PNG)
 백업할 폴더를 선택할때 데스크톱, 문서, 사진을 선택하면 자동으로 백업이된다.
@@ -119,24 +113,23 @@ installer를 통해 구글 드라이브 설치를 진행한다.
 
 내 드라이브의 모든 항목 동기화를 해주어 드라이브에 있는 모든 폴더와 데이터들을 관리할수 있다.
 
-
 이제 웹을 실행하지않고 바로 폴더로 클라우드 드라이브에서 데이터를 관리할수 있다.
 
 이제 필요한 데이터들을 구글드라이브에 넣어 초록색 체크가 될때까지 기다린뒤 포멧을 진행한다.
 
-
-***
+---
 
 ## 아나콘다 설치
+
 ---
-개인적으로 아나콘다를 왜 설치해야하냐고 묻는다면 나도 처음에 왜 설치하는지 모르고 하라고 해서 하게 되었다. 
+
+개인적으로 아나콘다를 왜 설치해야하냐고 묻는다면 나도 처음에 왜 설치하는지 모르고 하라고 해서 하게 되었다.
 
 하지만 나중에 파이썬 설치폴더에서 가상환경을 만들고하는것보다 아나콘다로 가상환경을 만들고 관리하는게 더 편하다는 것을 알게되었다. 다른 장점이나 이유는 잘 모르겠다.
 
 가상환경을 만들기 편해서, 관리하기 좋아서!
 
-
-그럼 가상환경이 무엇이가 왜 가상환경을 만들어야 할까? 
+그럼 가상환경이 무엇이가 왜 가상환경을 만들어야 할까?
 
 하나의 환경에서 이것저것 설치하면 서로 꼬이고 충돌해서 라이브러리를 지우고 다시 설치하고 버전을 업그레이드 업데이트해줘야한다. 프로젝트별로 가상환경을 만들어줘서 내가 원하는 환경을 세팅해놓으면 이런 번거로운 일을 안해도 된다.
 
@@ -147,47 +140,36 @@ installer를 통해 구글 드라이브 설치를 진행한다.
 ![그림13](../../../../assets/img/etc/setting_start/anaconda01.png){: width="400" height="400}
 다운로드 버튼을 누른다. 그럼 아래 사진과 같은 페이지로 이동한다.
 
-
-
 ![그림14](../../../../assets/img/etc/setting_start/anaconda02.png)
 윈도우 64bit로 다운
-
-
 
 ![그림15](../../../../assets/img/etc/setting_start/anaconda03.png)
 다운로드 폴더에서 installer를 실행한다.
 
-
-
 ![그림16](../../../../assets/img/etc/setting_start/anaconda04.png){: width="400" height="400}
 쭉 Next를 해준다.
-
 
 ![그림17](../../../../assets/img/etc/setting_start/anaconda05.png){: width="400" height="400}
 All Users에 체크를 한다.
 
-
 ![그림18](../../../../assets/img/etc/setting_start/anaconda06.PNG){: width="400" height="400}
 저장위치는 C드라이브 바로 하위에 둔다 설정하거나 관리하기 편하다.
-
 
 ![그림19](../../../../assets/img/etc/setting_start/anaconda07.png){: width="400" height="400}
 그대로 Next
 
-
 ![그림20](../../../../assets/img/etc/setting_start/anaconda08.png){: width="400" height="400}
 설치가 진행된다.
-
 
 나머지는 쭉쭉 next하고 마지막에 finish를 하면 설치 완료이다.
 ![그림21](../../../../assets/img/etc/setting_start/anaconda11.png)
 
-
-***
-
+---
 
 ## Visual Studio Code 설치
+
 ---
+
 비주얼 스튜디오 코드(영어: Visual Studio Code)는 마이크로소프트가 마이크로소프트 윈도우, macOS, 리눅스용으로 개발한 소스 코드 편집기이다.
 
 그중 개인적으로 파이썬 코드를 다룰때 편한거 같다. 디버깅이나 터미널 실행, 폴더, 파일관리
@@ -195,19 +177,15 @@ All Users에 체크를 한다.
 
 또한 따로 git을 설치할 필요가 없다
 
-
 아래 링크에 접속한다.
 
 [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
-
 ![그림22](../../../../assets/img/etc/setting_start/code01.PNG)
 Window 버튼을 누르면 된다.
 
-
 ![그림23](../../../../assets/img/etc/setting_start/code02.PNG){: width="500" height="500}
 동의합니다를 체크하고 다음을 클릭
-
 
 ![그림24](../../../../assets/img/etc/setting_start/code03.PNG){: width="500" height="500}
 아마 PATH에 추가는 처음부터 체크가 되어있을것이다.
@@ -218,52 +196,50 @@ Window 버튼을 누르면 된다.
 
 ![그림25](../../../../assets/img/etc/setting_start/code05.png){: width="600" height="600}
 
-
 ![그림26](../../../../assets/img/etc/setting_start/code04.PNG){: width="600" height="600}
 마지막으로 설치버튼을 누르면 설치가 완료된다.
 
-
-***
-
+---
 
 ## Visual Studio Code 터미널에 아나콘다 가상환경 연동
+
 ---
+
 처음에는 멍청하게 아나콘다를 설치하라고 해서 하였고.
 
 비주얼 스튜디오 코드를 설치하라고 해서 하였다.
 
 근데 비주얼 스튜디오 코드로 코드를 짜고 디버깅을 할때 아나콘다 가상환경으로 하면서 디버깅하기는 편한데 터미널을 열고 아나콘다 base 가상환경에 못들어가 비주얼 코드로 코드를 짜고 아나콘다 프롬픔트를 열어서 실행하곤 했다.
 
-따라서 비주얼 코드 터미널에서 바로 아나콘다 환경을 연동해주어서 base 가상환경을 base로 쉽게 가상환경을 넘나들수 있게 세팅할것이다. 
-
+따라서 비주얼 코드 터미널에서 바로 아나콘다 환경을 연동해주어서 base 가상환경을 base로 쉽게 가상환경을 넘나들수 있게 세팅할것이다.
 
 비주얼 코드를 실행한다.
 
 ![그림27](../../../../assets/img/etc/setting_start/01.jpg){: width="600" height="600}
 위 그림처럼 가장 왼쪽 아이콘 중에 가장 아래쪽을 클릭하고 python을 검색 가장 위에 저 3개를 설치한다.
 
-
 ![그림28](../../../../assets/img/etc/setting_start/setting01.png){: width="600" height="600}
 File - Preferences - Settings를 하고
-
 
 ![그림29](../../../../assets/img/etc/setting_start/02.jpg){: width="600" height="600}
 검색창에 settings 또는 json 또는 terminal.integrated.shellArgs.windows를 검색하고
 Edit in settings.json을 클릭한다.
 
-
 ![그림30](../../../../assets/img/etc/setting_start/setting03.png)
-위 그림과 같이 
+위 그림과 같이
 
 ```json
 {
-    "python.pythonPath": "C:\\Anaconda3\\python.exe",
-        "launch": {
-            "configurations": [],
-            "compounds": []
-        },
-        "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-        "terminal.integrated.shellArgs.windows": ["/K","C:\\Anaconda3\\Scripts\\activate.bat C:\\Anaconda3"]
+  "python.pythonPath": "C:\\Anaconda3\\python.exe",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "/K",
+    "C:\\Anaconda3\\Scripts\\activate.bat C:\\Anaconda3"
+  ]
 }
 ```
 
