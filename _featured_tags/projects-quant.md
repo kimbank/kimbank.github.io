@@ -1,7 +1,7 @@
 ---
 layout: list
 title: quant
-slug: quang
+slug: quant
 category: projects
 menu: false
 order: 1
