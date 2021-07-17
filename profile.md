@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Portfolio
+title: Profile
 menu: true
 order: 1
 ---
@@ -138,11 +138,7 @@ Hansung Univ – ETRI
 
 ---
 
--Language : C++
-
--FrameWork: None
-
--Certification : None
+-Language : C++ <sub><sup>_beginner_</sup></sub>
 
 ## Patents
 

@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Class
-slug: class
+title: insight
+slug: insight
 menu: true
 submenu: true
-order: 4
+order: 2
 description: >
-  수업  
+  경제, 논리학
 ---
