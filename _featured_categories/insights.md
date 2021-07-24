@@ -1,7 +1,7 @@
 ---
 layout: list
-title: insight
-slug: insight
+title: insights
+slug: insights
 menu: true
 submenu: true
 order: 3

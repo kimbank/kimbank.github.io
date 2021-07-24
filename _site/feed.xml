@@ -5,52 +5,43 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Jul 2021 20:50:28 +0900</pubDate>
-    <lastBuildDate>Sun, 18 Jul 2021 20:50:28 +0900</lastBuildDate>
+    <pubDate>Sat, 24 Jul 2021 18:48:05 +0900</pubDate>
+    <lastBuildDate>Sat, 24 Jul 2021 18:48:05 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
-        <title>키움 대학생 모의투자 대회</title>
+        <title>퀀트</title>
         <description>&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#서론&quot;&gt;서론&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#본론&quot;&gt;본론&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#개요&quot;&gt;개요&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#역사&quot;&gt;역사&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#결론&quot;&gt;결론&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;서론&quot;&gt;서론&lt;/h1&gt;
+&lt;h1 id=&quot;개요&quot;&gt;개요&lt;/h1&gt;
 
-&lt;p&gt;KBO리그의 키움 히어로즈의 스폰서로 유명한 키움증권에서 대학생들을 대상으로 자사에서 이용가능한 모의투자 서비스를 이용하여 우수한 수익률을 기록한 참가자를 가리는 대회를 진행한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;quantitative(계량적, 측정할 수 있는)&lt;/strong&gt; 와 &lt;strong&gt;analyst(분석가)&lt;/strong&gt; 의 합성어이다.&lt;br /&gt;
+수학·통계와 같은 계량적 수단에 기반해 투자모델을 만들거나 금융시장 변화를 예측하는 사람을 말한다.&lt;/p&gt;
 
-&lt;p&gt;대회는 주기적으로 진행되어 왔다.&lt;br /&gt;
-내가 참여하려는 대회는 &lt;strong&gt;2021.07.19(월) ~ 2021.08.27(금)&lt;/strong&gt; 에 진행되는 &lt;a href=&quot;https://www.kiwoom.com/h/mock/ordinary/VMockConTotalCINFOView&quot;&gt;‘제 29회 키움증권 대학생 모의투자 대회’&lt;/a&gt; 이다.&lt;/p&gt;
+&lt;h1 id=&quot;역사&quot;&gt;역사&lt;/h1&gt;
 
-&lt;h1 id=&quot;본론&quot;&gt;본론&lt;/h1&gt;
-
-&lt;p&gt;키움증권은 &lt;strong&gt;Open API&lt;/strong&gt; 를 통해 시스템 트레이딩을 지원한다.&lt;br /&gt;
-아쉽게도 운영체제는 윈도우만을 지원하지만 프로그래밍 언어는 다양한 언어를 지원한다.&lt;br /&gt;
-시스템 트레이딩은 요즘 유행하는 AI를 접목하여 수익률을 극대화 할 수 있다는 장점을 지니고 있다.&lt;br /&gt;
-실제로 일부 증권사에서는 AI기술을 활용한 펀드를 내놓기도 한다.&lt;br /&gt;
-나의 능력으로는 아직 AI는 엄두도 못내므로 일정 조건 달성시 매매가 이루어지도록 구현할 예정이다.&lt;br /&gt;
-궁극적으로는 AI기술을 접목한 퀀트투자를 구현하는 것이 목표이다.&lt;/p&gt;
+&lt;p&gt;퀀트는 수리 금융학의 개척자로 알려진 프랑스 출신 &lt;a href=&quot;https://en.wikipedia.org/wiki/Louis_Bachelier&quot;&gt;루이 바슐리에&lt;/a&gt;의 &lt;a href=&quot;https://www.investmenttheory.org/uploads/3/4/8/2/34825752/emhbachelier.pdf&quot;&gt;The Theory of Speculation&lt;/a&gt;에서 기원을 찾을 수 있다.&lt;/p&gt;
 
 &lt;h1 id=&quot;결론&quot;&gt;결론&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Open API&lt;/strong&gt; 를 이용하여 시스템 트레이딩을 구현하기 위한 개발 환경을 winows에 구축해야 한다.&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;&lt;sub&gt; &lt;a href=&quot;#목차&quot;&gt;목차&lt;/a&gt; &lt;/sub&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Sun, 18 Jul 2021 19:11:11 +0900</pubDate>
-        <link>http://localhost:4000/projects/2021/07/18/projects-quant-%E1%84%8F%E1%85%B5%E1%84%8B%E1%85%AE%E1%86%B7-%E1%84%83%E1%85%A2%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A2%E1%86%BC-%E1%84%86%E1%85%A9%E1%84%8B%E1%85%B4%E1%84%90%E1%85%AE%E1%84%8C%E1%85%A1-%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC.html</link>
-        <guid isPermaLink="true">http://localhost:4000/projects/2021/07/18/projects-quant-%E1%84%8F%E1%85%B5%E1%84%8B%E1%85%AE%E1%86%B7-%E1%84%83%E1%85%A2%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A2%E1%86%BC-%E1%84%86%E1%85%A9%E1%84%8B%E1%85%B4%E1%84%90%E1%85%AE%E1%84%8C%E1%85%A1-%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC.html</guid>
+        <pubDate>Tue, 20 Jul 2021 16:11:11 +0900</pubDate>
+        <link>http://localhost:4000/insights/2021/07/20/insights-economics-%E1%84%8F%E1%85%AF%E1%86%AB%E1%84%90%E1%85%B3%E1%84%90%E1%85%AE%E1%84%8C%E1%85%A1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/insights/2021/07/20/insights-economics-%E1%84%8F%E1%85%AF%E1%86%AB%E1%84%90%E1%85%B3%E1%84%90%E1%85%AE%E1%84%8C%E1%85%A1.html</guid>
         
-        <category>quant</category>
+        <category>economics</category>
         
         
-        <category>projects</category>
+        <category>insights</category>
         
       </item>
     

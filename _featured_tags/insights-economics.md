@@ -2,7 +2,7 @@
 layout: list
 title: economics
 slug: economics
-category: insight
+category: insights
 menu: false
 order: 2
 ---
