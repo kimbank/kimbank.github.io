@@ -20,9 +20,9 @@ related_posts:
   - [취소선 <sub><sub><sup>_Strike-Out_</sup></sub></sub>](#strike-out)
 - [**표** <sub><sub><sup>_Tables_</sup></sub></sub>](#tables)
 
-# **목차 꾸미기**
+# **목차 활용**
 
-필자 스스로 확립한 규칙이다.
+마크다운 문법 활용
 
 > **1. 최상위 [제목<sup><sub><sup>_Header_</sup></sub></sup>](#header)은 [볼드체<sup><sub><sup>_Bold_</sup></sub></sup>](#bold)를 사용한다.**
 >
