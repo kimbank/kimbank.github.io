@@ -5,7 +5,7 @@ subtitle: "test"
 date: 2021-07-17 19:11:11 +0900
 categories: projects
 tags: quant
-comments: true
+comments: false
 related_posts:
 #   - category/_posts/study/2020-12-26-making-blog-02.md
 #   - category/_posts/study/2020-12-26-making-blog-03.md

@@ -19,7 +19,8 @@
       {{ content }}
 
       {% if site.disqus_shortname and page.layout == 'post' %}
-        {% include comments.html %}
+        <!-- comments 댓글 기능 활성화 하려면 주석 취소
+        {% include comments.html %} -->
       {% endif %}
 
       {% include footer.html %}

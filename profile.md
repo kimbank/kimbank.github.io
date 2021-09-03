@@ -25,9 +25,9 @@ font-weight:bold">
 
 ---
 
-> 2001.8.17 대한민국, 서울특별시, 강남구 출생
+> 2001.08.17 대한민국 출생
 
-> 연락처: kimeunhang@inha.edu
+> Email : kimeunhang@inha.edu
 
 > Github : <a href="https://github.com/kimbank">https://github.com/kimbank</a>
 
@@ -134,14 +134,14 @@ Hansung Univ – ETRI
 
 <a herf="https://github.com/khw11044/PlenOpticVot_Siamfc_2020">https://github.com/khw11044/PlenOpticVot_Siamfc_2020</a> -->
 
-## Skills and Certification
+<!-- ## Skills and Certification
 
 ---
 
--Language : C++ <sub><sup>_beginner_</sup></sub>
+-Language : C++ <sub><sup>_beginner_</sup></sub> -->
 
-## Patents
+<!-- ## Patents
 
 ---
 
-None
+None -->

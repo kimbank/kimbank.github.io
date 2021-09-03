@@ -58,7 +58,7 @@ copyright: "&copy; 2021 by 김은행"
 permalink:
 
 # Pagination configuration (used by the `blog` layout)
-paginate: 5
+paginate: 10
 paginate_path: "/page-:num/"
 
 # If you are upgrading form a v5 verison of Hydejack, uncomment the two lines below,

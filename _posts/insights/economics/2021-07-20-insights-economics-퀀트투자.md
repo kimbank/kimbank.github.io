@@ -5,7 +5,7 @@ subtitle: ""
 date: 2021-07-20 16:11:11 +0900
 categories: insight
 tags: economics
-comments: true
+comments: false
 related_posts:
 #   - category/_posts/study/2020-12-26-making-blog-02.md
 #   - category/_posts/study/2020-12-26-making-blog-03.md

@@ -5,8 +5,8 @@ subtitle: ""
 date: 2021-08-14 13:00:00 +0900
 categories: note
 tags: markdown
-comments: true
-related_posts:
+comments: false
+related_posts: false
 #   - category/_posts/study/2020-12-26-making-blog-02.md
 #   - category/_posts/study/2020-12-26-making-blog-03.md
 ---
