@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Sep 2021 22:35:08 +0900</pubDate>
-    <lastBuildDate>Fri, 03 Sep 2021 22:35:08 +0900</lastBuildDate>
+    <pubDate>Fri, 03 Sep 2021 23:13:00 +0900</pubDate>
+    <lastBuildDate>Fri, 03 Sep 2021 23:13:00 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -24,7 +24,8 @@
 &lt;p&gt;파이썬은 스크립트 언어이다.
 이 언어는 1991년도에 네덜란드의 프로그래머 귀도 반 로섬에 의해 개발되었다.
 난이도가 비교적 쉽다는 평이 많아 프로그래밍 언어 입문자에게 많은 사랑을 받고 있다.
-현재는 파이썬 소프트웨어 재단(&lt;a href=&quot;https://www.python.org/psf/&quot;&gt;Python Software Foundation&lt;/a&gt;)에서 관리한다.&lt;/p&gt;
+현재는 파이썬 소프트웨어 재단(&lt;a href=&quot;https://www.python.org/psf/&quot;&gt;Python Software Foundation&lt;/a&gt;)에서 관리한다.
+&lt;img src=&quot;/_posts/note/python/import.png&quot; alt=&quot;import_this&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;1991년 파이썬 개발&lt;/em&gt; &lt;br /&gt; &lt;em&gt;2000년 파이썬2 출시&lt;/em&gt; &lt;br /&gt;&lt;em&gt;2008년 파이썬3 출시&lt;/em&gt;&lt;/p&gt;
 
@@ -32,8 +33,7 @@
 
 &lt;p&gt;파이썬의 철학이 존재한다.
 이스터에그 형식으로 콘솔에 &lt;code class=&quot;highlighter-rouge&quot;&gt;import this&lt;/code&gt;를 입력하면 확인이 가능하다.
-&lt;img src=&quot;_posts/note/python/2021-09-03-import_this.png&quot; alt=&quot;import this&quot; /&gt;
-&lt;img src=&quot;/_posts/note/python/2021-09-03-import_this.png&quot; alt=&quot;import_this&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/_posts/note/python/2021-09-03-import_this.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 핵심 적인 것은 아래와 같다.&lt;/p&gt;
@@ -57,7 +57,7 @@ int main()
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&quot;_posts/note/python/2021-09-03-c_hello.png&quot; alt=&quot;c99hello&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;/_posts/note/python/2021-09-03-c_hello.png&quot; /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
 파이썬 &lt;code class=&quot;highlighter-rouge&quot;&gt;Hello World!&lt;/code&gt; 출력&lt;/p&gt;
@@ -65,7 +65,7 @@ int main()
 &lt;pre&gt;&lt;code class=&quot;language-Python&quot;&gt;print('Hello World')
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&quot;_posts/note/python/2021-09-03-python_hello.png&quot; alt=&quot;pythonhello&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/_posts/note/python/2021-09-03-python_hello.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 

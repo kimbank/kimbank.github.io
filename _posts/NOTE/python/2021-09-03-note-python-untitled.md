@@ -21,7 +21,7 @@ related_posts: false
 이 언어는 1991년도에 네덜란드의 프로그래머 귀도 반 로섬에 의해 개발되었다.
 난이도가 비교적 쉽다는 평이 많아 프로그래밍 언어 입문자에게 많은 사랑을 받고 있다.
 현재는 파이썬 소프트웨어 재단(<a href="https://www.python.org/psf/">Python Software Foundation</a>)에서 관리한다.
-![import_this](/_posts/note/python/2021-09-03-import_this.png)
+![import_this](/_posts/note/python/import.png)
 
 _1991년 파이썬 개발_ <br/> _2000년 파이썬2 출시_ <br/>_2008년 파이썬3 출시_
 
