@@ -1,6 +1,6 @@
 ---
-layout: about
-title: profile
+layout: base
+title:
 menu: true
 order: 1
 ---
@@ -8,6 +8,7 @@ order: 1
 ---
 
 <center>
+<img src="assets/img/me.jpg" alt="My Image">
 <span style=
 "font-size:170%;
 font-weight:bold">
@@ -20,7 +21,7 @@ font-weight:bold">
 <center>INHA UNIVERSITY</center>
 
 <center>100, Inha-ro, Michuhol-gu, Incheon, Republic of Korea</center>
-
+<br/><br/>
 ## Personal Data
 
 ---
