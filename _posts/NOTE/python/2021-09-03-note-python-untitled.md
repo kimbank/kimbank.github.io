@@ -43,7 +43,7 @@ _1.아름다운 것이 추한 것보다 낫다. (Beautiful is better than ugly.)
 
 백준에서 제출된 코드를 참고할 때 다른 언어로 된 것도 보이게 되는데, 파이썬을 확인해 보면 유독 메모리 소비가 크다.
 
-C언어 `Hello World!` 출력
+**C언어 `Hello World!` 출력**
 
 ```C
 #include <stdio.h>
@@ -53,10 +53,11 @@ int main()
 }
 ```
 
-![c99hello](/assets/img/posts/note.python/c_hello.png)
+![c99hello](/assets/posts_image/note_python/c_hello.png)
 <br/>
 <br/>
-파이썬 `Hello World!` 출력
+
+**파이썬 `Hello World!` 출력**
 
 ```Python
 print('Hello World')
