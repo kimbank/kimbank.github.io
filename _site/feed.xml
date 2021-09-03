@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Sep 2021 22:30:40 +0900</pubDate>
-    <lastBuildDate>Fri, 03 Sep 2021 22:30:40 +0900</lastBuildDate>
+    <pubDate>Fri, 03 Sep 2021 22:35:08 +0900</pubDate>
+    <lastBuildDate>Fri, 03 Sep 2021 22:35:08 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -32,7 +32,8 @@
 
 &lt;p&gt;파이썬의 철학이 존재한다.
 이스터에그 형식으로 콘솔에 &lt;code class=&quot;highlighter-rouge&quot;&gt;import this&lt;/code&gt;를 입력하면 확인이 가능하다.
-&lt;img src=&quot;_posts/note/python/2021-09-03-import_this.png&quot; alt=&quot;import this&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;_posts/note/python/2021-09-03-import_this.png&quot; alt=&quot;import this&quot; /&gt;
+&lt;img src=&quot;/_posts/note/python/2021-09-03-import_this.png&quot; alt=&quot;import_this&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 핵심 적인 것은 아래와 같다.&lt;/p&gt;

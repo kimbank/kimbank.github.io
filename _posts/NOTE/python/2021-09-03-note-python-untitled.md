@@ -28,7 +28,7 @@ _1991년 파이썬 개발_ <br/> _2000년 파이썬2 출시_ <br/>_2008년 파�
 
 파이썬의 철학이 존재한다.
 이스터에그 형식으로 콘솔에 `import this`를 입력하면 확인이 가능하다.
-<img src="_posts/note/python/2021-09-03-import_this.png" alt="import this">
+<img src="/_posts/note/python/2021-09-03-import_this.png" alt="import this">
 
 <br/>
 핵심 적인 것은 아래와 같다.
@@ -53,7 +53,7 @@ int main()
 }
 ```
 
-<img src="_posts/note/python/2021-09-03-c_hello.png" alt="c99hello">
+<img src="/_posts/note/python/2021-09-03-c_hello.png" alt="c99hello">
 <br/>
 <br/>
 파이썬 `Hello World!` 출력
@@ -62,7 +62,7 @@ int main()
 print('Hello World')
 ```
 
-<img src="_posts/note/python/2021-09-03-python_hello.png" alt="pythonhello">
+<img src="/_posts/note/python/2021-09-03-python_hello.png" alt="pythonhello">
 
 <br/>
 
