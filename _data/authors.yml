@@ -23,7 +23,7 @@ vvs:
   # Icons appear in order, can be rearranged:
   social:
     # facebook:
-    # twitter:         <username>
+    twitter: kimeunhang
     # google:          <number>
     # vk:              <username>
     # youtube:         <string_string_string>
@@ -57,7 +57,7 @@ vvs:
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
-    # email:           mailto:kimeunhang@inha.edu
+    # email: mailto:kimeunhang@inha.edu
     # rss:             https://kimbank.github.io/feed.xml
 # Another author
 # author2:
