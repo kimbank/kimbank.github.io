@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "test"
-subtitle: "test"
-date: 2021-07-17 19:11:11 +0900
-categories: projects
+title: "test2020"
+subtitle: "test2020"
+date: 2021-01-01 11:11:11 +0900
+categories: project
 tags: quant
 comments: false
 related_posts:

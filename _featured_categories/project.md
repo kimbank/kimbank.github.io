@@ -1,7 +1,7 @@
 ---
 layout: list
-title: projects
-slug: projects
+title: project
+slug: project
 menu: true
 submenu: true
 order: 2

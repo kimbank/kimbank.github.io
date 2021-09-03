@@ -1,6 +1,6 @@
 ---
 layout: base
-title:
+title: profile
 menu: true
 order: 1
 ---
