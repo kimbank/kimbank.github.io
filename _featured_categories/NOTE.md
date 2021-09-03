@@ -1,5 +1,5 @@
 ---
-layout: frontdoor
+layout: categories_list
 title: note
 slug: note
 menu: true
