@@ -2,7 +2,7 @@
 layout: list
 title: quant
 slug: quant
-category: projects
+category: project
 menu: false
 order: 1
 ---
