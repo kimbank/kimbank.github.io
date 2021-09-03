@@ -5,12 +5,89 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Sep 2021 19:10:13 +0900</pubDate>
-    <lastBuildDate>Fri, 03 Sep 2021 19:10:13 +0900</lastBuildDate>
+    <pubDate>Fri, 03 Sep 2021 22:30:40 +0900</pubDate>
+    <lastBuildDate>Fri, 03 Sep 2021 22:30:40 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
-        <title>마크다운 기본 문법</title>
+        <title>파이썬(Python) 특징</title>
+        <description>&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#개요&quot;&gt;&lt;strong&gt;개요&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#디자인-철학&quot;&gt;&lt;strong&gt;디자인 철학&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tables&quot;&gt;&lt;strong&gt;단점&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;개요&quot;&gt;개요&lt;/h1&gt;
+
+&lt;p&gt;파이썬은 스크립트 언어이다.
+이 언어는 1991년도에 네덜란드의 프로그래머 귀도 반 로섬에 의해 개발되었다.
+난이도가 비교적 쉽다는 평이 많아 프로그래밍 언어 입문자에게 많은 사랑을 받고 있다.
+현재는 파이썬 소프트웨어 재단(&lt;a href=&quot;https://www.python.org/psf/&quot;&gt;Python Software Foundation&lt;/a&gt;)에서 관리한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;1991년 파이썬 개발&lt;/em&gt; &lt;br /&gt; &lt;em&gt;2000년 파이썬2 출시&lt;/em&gt; &lt;br /&gt;&lt;em&gt;2008년 파이썬3 출시&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;디자인-철학&quot;&gt;디자인 철학&lt;/h1&gt;
+
+&lt;p&gt;파이썬의 철학이 존재한다.
+이스터에그 형식으로 콘솔에 &lt;code class=&quot;highlighter-rouge&quot;&gt;import this&lt;/code&gt;를 입력하면 확인이 가능하다.
+&lt;img src=&quot;_posts/note/python/2021-09-03-import_this.png&quot; alt=&quot;import this&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+핵심 적인 것은 아래와 같다.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;1.아름다운 것이 추한 것보다 낫다. (Beautiful is better than ugly.)&lt;/em&gt; &lt;br /&gt;&lt;em&gt;2. 명시적인 것이 암시적인 것보다 낫다. (Explicit is better than complex)&lt;/em&gt; &lt;br /&gt;&lt;em&gt;3. 단순한 것이 복잡한 것보다 낫다. (Simple is better than complex)&lt;/em&gt; &lt;br /&gt;&lt;em&gt;4. 복잡한 것이 알기 어려운 것보다 낫다. (Complex is better than complicated)&lt;/em&gt; &lt;br /&gt;&lt;em&gt;5. 가독성은 중요하다. (Readability counts)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;이를 통해 파이썬의 철학을 알 수 있다.&lt;/p&gt;
+
+&lt;h1 id=&quot;단점&quot;&gt;단점&lt;/h1&gt;
+
+&lt;p&gt;일반적으로 사람이 편하면 기계가 힘들고 기계가 편하면 사람이 힘들다는 말이 있다.&lt;/p&gt;
+
+&lt;p&gt;백준에서 제출된 코드를 참고할 때 다른 언어로 된 것도 보이게 되는데, 파이썬을 확인해 보면 유독 메모리 소비가 크다.&lt;/p&gt;
+
+&lt;p&gt;C언어 &lt;code class=&quot;highlighter-rouge&quot;&gt;Hello World!&lt;/code&gt; 출력&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-C&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+int main()
+{
+  printf(&quot;Hello World!\n&quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;_posts/note/python/2021-09-03-c_hello.png&quot; alt=&quot;c99hello&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+파이썬 &lt;code class=&quot;highlighter-rouge&quot;&gt;Hello World!&lt;/code&gt; 출력&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-Python&quot;&gt;print('Hello World')
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;_posts/note/python/2021-09-03-python_hello.png&quot; alt=&quot;pythonhello&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;파이썬을 보면 코드가 짧아 사용하기 편하다.
+하지만 메모리 소모가 큰 것이 확인된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;&lt;sub&gt; &lt;a href=&quot;#목차&quot;&gt;목차&lt;/a&gt; &lt;/sub&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Fri, 03 Sep 2021 13:00:00 +0900</pubDate>
+        <link>http://localhost:4000/note/2021/09/03/note-python-untitled.html</link>
+        <guid isPermaLink="true">http://localhost:4000/note/2021/09/03/note-python-untitled.html</guid>
+        
+        <category>python</category>
+        
+        
+        <category>note</category>
+        
+      </item>
+    
+      <item>
+        <title>마크다운(Markdown) 기본 문법</title>
         <description>&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -231,8 +308,8 @@
 &lt;hr /&gt;
 </description>
         <pubDate>Sat, 14 Aug 2021 13:00:00 +0900</pubDate>
-        <link>http://localhost:4000/note/2021/08/14/note-markdown-basic.html</link>
-        <guid isPermaLink="true">http://localhost:4000/note/2021/08/14/note-markdown-basic.html</guid>
+        <link>http://localhost:4000/note/2021/08/14/note-markdown-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4(Markdown)-%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95.html</link>
+        <guid isPermaLink="true">http://localhost:4000/note/2021/08/14/note-markdown-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4(Markdown)-%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95.html</guid>
         
         <category>markdown</category>
         
@@ -278,7 +355,7 @@
       </item>
     
       <item>
-        <title>test2020</title>
+        <title>test2021</title>
         <description>&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -298,8 +375,8 @@
 &lt;!-- ![그림1](../../../../assets/img/study/githubpages/1.png){: width=&quot;400&quot; height=&quot;400} --&gt;
 </description>
         <pubDate>Fri, 01 Jan 2021 11:11:11 +0900</pubDate>
-        <link>http://localhost:4000/project/2021/01/01/projects-quant-test2021.html</link>
-        <guid isPermaLink="true">http://localhost:4000/project/2021/01/01/projects-quant-test2021.html</guid>
+        <link>http://localhost:4000/project/2021/01/01/project-quant-test2021.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2021/01/01/project-quant-test2021.html</guid>
         
         <category>quant</category>
         
