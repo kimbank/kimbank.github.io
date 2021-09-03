@@ -1,0 +1,18 @@
+---
+layout: base
+---
+
+<div class="page">
+  <h1 class="page-title">{{ page.title | default:"Home"}}</h1>
+  <hr/>
+
+  {{ content }}
+
+  <h2>Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.posts %}
+      {% include post-list-item.html post=post %}
+    {% endfor %}
+  </ul>
+
+</div>
