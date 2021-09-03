@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Basic"
+title: "마크다운 기본 문법"
 subtitle: ""
 date: 2021-08-14 13:00:00 +0900
-categories: NOTE
-tags: MarkDown
+categories: note
+tags: markdown
 comments: true
 related_posts:
 #   - category/_posts/study/2020-12-26-making-blog-02.md

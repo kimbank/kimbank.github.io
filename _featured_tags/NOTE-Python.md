@@ -1,8 +1,8 @@
 ---
 layout: list
-title: Python
-slug: Python
-category: NOTE
+title: python
+slug: python
+category: note
 menu: false
 order: 2
 ---

@@ -2,7 +2,7 @@
 layout: list
 title: logics
 slug: logics
-category: insights
+category: insight
 menu: false
 order: 3
 ---

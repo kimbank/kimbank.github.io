@@ -1,8 +1,8 @@
 ---
 layout: list
-title: MarkDown
-slug: MarkDown
-category: NOTE
+title: markdown
+slug: markdown
+category: note
 menu: false
 order: 6
 ---

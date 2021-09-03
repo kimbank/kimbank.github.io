@@ -1,8 +1,8 @@
 ---
 layout: list
-title: Linux
-slug: Linux
-category: NOTE
+title: linux
+slug: linux
+category: note
 menu: false
 order: 5
 ---

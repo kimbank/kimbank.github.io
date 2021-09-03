@@ -3,7 +3,7 @@ layout: post
 title: "퀀트"
 subtitle: ""
 date: 2021-07-20 16:11:11 +0900
-categories: insights
+categories: insight
 tags: economics
 comments: true
 related_posts:

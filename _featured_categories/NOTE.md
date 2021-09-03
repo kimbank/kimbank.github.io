@@ -1,7 +1,7 @@
 ---
 layout: list
-title: NOTE
-slug: NOTE
+title: note
+slug: note
 menu: true
 submenu: true
 order: 4

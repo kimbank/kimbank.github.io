@@ -2,7 +2,7 @@
 layout: list
 title: computer science
 slug: computer science
-category: insights
+category: insight
 menu: false
 order: 1
 ---
