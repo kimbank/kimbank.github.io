@@ -12,8 +12,8 @@ layout: base
   <ul class="related-posts">
     {% for post in site.posts %}
       {% include post-list-item.html post=post %}
-        <sup><sub>{% include tag-list.html tags=post.categories meta=site.featured_categories start_with="in " separator=" / " %}
-        {% include tag-list.html tags=post.tags meta=site.featured_tags start_with="on " separator=", " %}</sub></sup>
+        <sup><sub>{% include tag-list.html tags=post.categories meta=site.featured_categories start_with="  / " separator=" / " %}
+        {% include tag-list.html tags=post.tags meta=site.featured_tags start_with="  / " separator=", " %}</sub></sup>
     {% endfor %}
   </ul>
 
