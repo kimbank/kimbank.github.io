@@ -15,6 +15,8 @@ related_posts: false
 - [**디자인 철학**](#디자인-철학)
 - [**단점**](#tables)
 
+  <br/><br/><br/>
+
 # 개요
 
 파이썬은 스크립트 언어이다.
@@ -24,11 +26,13 @@ related_posts: false
 
 _1991년 파이썬 개발_ <br/> _2000년 파이썬2 출시_ <br/>_2008년 파이썬3 출시_
 
+<br/><br/><br/>
+
 # 디자인 철학
 
 파이썬의 철학이 존재한다.
 이스터에그 형식으로 콘솔에 `import this`를 입력하면 확인이 가능하다.
-![import.png](/assets/img/posts/note-python/import.png)
+![import.png](/assets/posts_image/note_python/import.png)
 
 <br/>
 핵심 적인 것은 아래와 같다.
@@ -36,6 +40,8 @@ _1991년 파이썬 개발_ <br/> _2000년 파이썬2 출시_ <br/>_2008년 파�
 _1.아름다운 것이 추한 것보다 낫다. (Beautiful is better than ugly.)_ <br/>_2. 명시적인 것이 암시적인 것보다 낫다. (Explicit is better than complex)_ <br/>_3. 단순한 것이 복잡한 것보다 낫다. (Simple is better than complex)_ <br/>_4. 복잡한 것이 알기 어려운 것보다 낫다. (Complex is better than complicated)_ <br/>_5. 가독성은 중요하다. (Readability counts)_
 
 이를 통해 파이썬의 철학을 알 수 있다.
+
+<br/><br/><br/>
 
 # 단점
 
@@ -63,12 +69,14 @@ int main()
 print('Hello World')
 ```
 
-![pythonhello](/assets/img/posts/note:python/python_hello.png)
+![pythonhello](/assets/posts_image/note_python/python_hello.png)
 
 <br/>
 
 파이썬을 보면 코드가 짧아 사용하기 편하다.
 하지만 메모리 소모가 큰 것이 확인된다.
+
+<br/><br/><br/>
 
 <sup><sub> [목차](#목차) </sub></sup>
 
