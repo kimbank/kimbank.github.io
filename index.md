@@ -1,4 +1,4 @@
 ---
 layout: frontdoor
-title: Hello!
+title: Hello
 ---
