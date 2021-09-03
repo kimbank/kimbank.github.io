@@ -21,7 +21,7 @@ related_posts: false
 이 언어는 1991년도에 네덜란드의 프로그래머 귀도 반 로섬에 의해 개발되었다.
 난이도가 비교적 쉽다는 평이 많아 프로그래밍 언어 입문자에게 많은 사랑을 받고 있다.
 현재는 파이썬 소프트웨어 재단(<a href="https://www.python.org/psf/">Python Software Foundation</a>)에서 관리한다.
-![import_this](_posts/note/python/2021-09-03-import_this.png)
+![import_this](/_posts/note/python/2021-09-03-import_this.png)
 
 _1991년 파이썬 개발_ <br/> _2000년 파이썬2 출시_ <br/>_2008년 파이썬3 출시_
 
@@ -29,7 +29,7 @@ _1991년 파이썬 개발_ <br/> _2000년 파이썬2 출시_ <br/>_2008년 파�
 
 파이썬의 철학이 존재한다.
 이스터에그 형식으로 콘솔에 `import this`를 입력하면 확인이 가능하다.
-<img src="/_posts/note/python/2021-09-03-import_this.png" alt="import this">
+<img src="/_posts/note/python/2021-09-03-import_this.png">
 
 <br/>
 핵심 적인 것은 아래와 같다.
@@ -54,7 +54,7 @@ int main()
 }
 ```
 
-<img src="/_posts/note/python/2021-09-03-c_hello.png" alt="c99hello">
+<img src="/_posts/note/python/2021-09-03-c_hello.png">
 <br/>
 <br/>
 파이썬 `Hello World!` 출력
@@ -63,7 +63,7 @@ int main()
 print('Hello World')
 ```
 
-<img src="/_posts/note/python/2021-09-03-python_hello.png" alt="pythonhello">
+<img src="/_posts/note/python/2021-09-03-python_hello.png">
 
 <br/>
 
