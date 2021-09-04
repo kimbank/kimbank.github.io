@@ -18,7 +18,7 @@ layout: base
   <ul class="related-posts">
     {% assign date = currentdate %}
     {% endif %}
-    {% include post-list-item.html post=post format="%b %d" %}
+    {% include post-list-item.html post=post format=" &nbsp;&nbsp;&nbsp;%b %d" %}
     <sup><sub>{% include tag-list.html tags=post.categories meta=site.featured_categories start_with=" &nbsp;&nbsp;&nbsp;/ " separator=" /
         " %}
         {% include tag-list.html tags=post.tags meta=site.featured_tags start_with=" / " separator=", " %}</sub></sup>
