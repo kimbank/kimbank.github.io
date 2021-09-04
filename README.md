@@ -6,16 +6,19 @@
 # 사이트 테스트 시작 #
 $ bundle exec jekyll serve
 
-
 # 테스트 중단 #
 # MacOS & Windows 'control + c' #
 $ ^C
 ```
 
+
+
 ## 테스트 사이트 주소
 
 [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
 cmd + click(클릭)
+
+
 
 ## 포스트 마크다운 파일 작명 규칙
 
@@ -27,6 +30,8 @@ YEAR-MONTH-DAY-Categories-Tags-PostTitle.md
 ```
 
 공백은 하이픈 `-`으로 표현한다.
+
+
 
 # 주의사항
 
