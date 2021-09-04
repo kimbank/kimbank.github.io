@@ -4,7 +4,7 @@ layout: base
 
 <div class="page">
   <h1 class="page-title">{{ page.title | default:"Home"}}</h1>
-  <hr/>
+  <hr />
 
   {{ content }}
 
@@ -12,15 +12,16 @@ layout: base
   <ul class="related-posts">
     {% for post in site.posts %}
     {% assign currentdate = post.date | date: "%Y" %}
-  {% if currentdate != date %}
+    {% if currentdate != date %}
     {% unless forloop.first %}</ul>{% endunless %}
-    <h2 id="y{{post.date | date: "%Y"}}" class="hr">{{ currentdate }}</h2>
-    <ul class="related-posts">
+  <h2 id="y{{post.date | date: " %Y"}}" class="hr">{{ currentdate }}</h2>
+  <ul class="related-posts">
     {% assign date = currentdate %}
-  {% endif %}
-      {% include post-list-item.html post=post %}
-        <sup><sub>{% include tag-list.html tags=post.categories meta=site.featured_categories start_with="  / " separator=" / " %}
-        {% include tag-list.html tags=post.tags meta=site.featured_tags start_with="  / " separator=", " %}</sub></sup>
+    {% endif %}
+    {% include post-list-item.html post=post format="%b %d" %}
+    <sup><sub>{% include tag-list.html tags=post.categories meta=site.featured_categories start_with=" / " separator=" /
+        " %}
+        {% include tag-list.html tags=post.tags meta=site.featured_tags start_with=" / " separator=", " %}</sub></sup>
     {% endfor %}
   </ul>
 
