@@ -1,5 +1,5 @@
 ---
-layout: categories_list
+layout: seconddoor
 title: insight
 slug: insight
 menu: true

@@ -1,5 +1,5 @@
 ---
-layout: categories_list
+layout: seconddoor
 title: project
 slug: project
 menu: true

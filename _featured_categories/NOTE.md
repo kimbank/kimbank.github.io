@@ -1,5 +1,5 @@
 ---
-layout: categories_list
+layout: seconddoor
 title: note
 slug: note
 menu: true
