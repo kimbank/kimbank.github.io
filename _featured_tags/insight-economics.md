@@ -4,5 +4,5 @@ title: economics
 slug: economics
 category: insight
 menu: false
-order: 2
+order: 1
 ---

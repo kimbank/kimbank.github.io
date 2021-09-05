@@ -1,8 +1,8 @@
 ---
 layout: list
-title: markdown
-slug: markdown
+title: AI
+slug: AI
 category: note
 menu: false
-order: 5
+order: 1
 ---

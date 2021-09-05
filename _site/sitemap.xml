@@ -2,6 +2,22 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
+      <loc>http://localhost:4000/note/2021/09/05/note-AI-AI%EC%99%80-%EC%BD%94%EC%84%B8%EB%9D%BC(Coursera)-%EA%B0%95%EC%9D%98.html</loc>
+      
+        <lastmod>2021-09-05T13:50:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>1.0</priority>
+      
+
+    </url>
+  
+    <url>
       <loc>http://localhost:4000/note/2021/09/03/note-python-untitled.html</loc>
       
         <lastmod>2021-09-03T13:00:00+09:00</lastmod>
