@@ -11,41 +11,7 @@
                 \/__/                  \/___/
 
 Powered by Hydejack v6.4.0 (https://qwtel.com/hydejack/)
---><!-- 상단 진행바 시작 -->
-<style>
-  .progress-bar {
-      background: linear-gradient(to right, black var(--scroll), transparent 0);
-      background-repeat: no-repeat;
-      width: 100%;
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 3px;
-      z-index: 9000;
-  }
-  </style>
-  
-  <!-- This is the bar which shows scroll percentage -->
-  <div class="progress-bar"></div>
-  
-  
-  <!-- Script used to generate --scroll variable with current scroll percentage value -->
-  <script>
-  var element = document.documentElement,
-    body = document.body,
-    scrollTop = 'scrollTop',
-    scrollHeight = 'scrollHeight',
-    progress = document.querySelector('.progress-bar'),
-    scroll;
-  
-  document.addEventListener('scroll', function() {
-    scroll = (element[scrollTop]||body[scrollTop]) / ((element[scrollHeight]||body[scrollHeight]) - element.clientHeight) * 100;
-    progress.style.setProperty('--scroll', scroll + '%');
-  });
-  </script>
-  <!-- 하단 진행바 끝  --> 
-
-
+-->
 
 
 
@@ -453,6 +419,8 @@ None -->
          
            
          
+           
+         
      </ul>
     </li>
 
@@ -472,6 +440,8 @@ None -->
              <li>
                <a class="sidebar-nav-subitem" href="/tag/project-quant/">quant</a>
              </li>
+           
+         
            
          
            
@@ -504,6 +474,8 @@ None -->
            
          
            
+         
+           
              <li>
                <a class="sidebar-nav-subitem" href="/tag/note-c/">c++</a>
              </li>
@@ -525,6 +497,37 @@ None -->
              <li>
                <a class="sidebar-nav-subitem" href="/tag/note-markdown/">markdown</a>
              </li>
+           
+         
+     </ul>
+    </li>
+
+  
+  
+    <li>
+      <input type="checkbox" id="list-item-4"/>
+      <div  class="list-wrapper">
+      <a class="sidebar-nav-item" href="/category/test1/">test1</a>
+       <label class="folder" for="list-item-4">▾</label>
+    </div>
+     <ul class="list-body">
+       
+           
+         
+           
+         
+           
+             <li>
+               <a class="sidebar-nav-subitem" href="/tag/test2/">test2</a>
+             </li>
+           
+         
+           
+         
+           
+         
+           
+         
            
          
      </ul>
