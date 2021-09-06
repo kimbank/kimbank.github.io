@@ -16,7 +16,7 @@ layout: base
 
 {% if page.title.size > 0 %}
 <header>
-  <h1 class="page-title">{{ page.title }} &nbsp;&nbsp;&nbsp;<font color = 'gray'><sub><sup>posts : <span>{{ site.categories[category].size }}</span></sup></sub></font></h1>
+  <h1 class="page-title">{{ page.title }} &nbsp;&nbsp;&nbsp;<font color = 'gray'><sub><sup>posts : {{ site.tags.AI | size }}</sup></sub></font></h1>
   {% include message.html text=page.description %}
 </header>
 <hr class="sr-only" />
@@ -31,8 +31,6 @@ layout: base
   {% assign date = currentdate %}
   {% endif %}
   {% include post-list-item.html post=post format=" &nbsp;&nbsp;&nbsp;%b %d" %}
-  <sup><sub>{% include tag-list.html tags=post.tags meta=site.featured_tags start_with=" &nbsp;&nbsp;&nbsp;/ " separator=", "
-      %}</sub></sup>
   {% if forloop.last %}
 </ul>{% endif %}
 {% endfor %}

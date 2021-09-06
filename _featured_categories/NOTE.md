@@ -1,5 +1,5 @@
 ---
-layout: seconddoor
+layout: CAT_note
 title: note
 slug: note
 menu: true
