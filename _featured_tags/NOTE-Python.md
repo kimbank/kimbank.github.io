@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: TAG_note_python
 title: python
 slug: python
 category: note

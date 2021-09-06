@@ -1,5 +1,5 @@
 ---
-layout: seconddoor
+layout: CAT_project
 title: project
 slug: project
 menu: true

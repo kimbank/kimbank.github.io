@@ -16,8 +16,8 @@ layout: base
 
 {% if page.title.size > 0 %}
 <header>
-  <h1 class="page-title">{{ page.title }} &nbsp;&nbsp;&nbsp;<font color = 'gray'><sub><sup>posts : <span>{{ site.categories[category].size }}</span></sup></sub></font></h1>
-  {% include message.html text=page.description %}
+  <h1 class="page-title">{{ page.title }} &nbsp;&nbsp;&nbsp;<font color = 'gray'><sub><sup>posts : {{ site.tags.python | size}}</sup></sub></font></h1>
+  <!-- {% include message.html text=page.description %} -->
 </header>
 <hr class="sr-only" />
 {% endif %}
