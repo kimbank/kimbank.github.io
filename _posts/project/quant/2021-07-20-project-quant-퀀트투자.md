@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "퀀트"
-subtitle: ""
+subtitle: "subtitle"
 date: 2021-07-20 16:11:11 +0900
 categories: project
 tags: quant
