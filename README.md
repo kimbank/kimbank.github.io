@@ -38,5 +38,3 @@ YEAR-MONTH-DAY-Categories-Tags-PostTitle.md
 > 모든 이미지 파일은 `/assets` 경로를 통해서만 정상 작동한다.
 
 > 맥에서 작업시 확장자명의 대소문자 구분을 확실히 해야 한다. (소문자 통일 권장)
-
-# TEST
