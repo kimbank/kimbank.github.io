@@ -1,8 +1,9 @@
 ---
 layout: CAT_webs
-title: <p style="font-size:17px;">[WEBS] STUDY RECORD</p>
-slug: WEBS STUDY
+title: WEBS STUDY RECORD
+slug: webs
 menu: true
 submenu: false
 order: 1
+description: WEBS 스터디 기록입니다.
 ---

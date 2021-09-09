@@ -5,9 +5,22 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Sep 2021 18:46:45 +0900</pubDate>
-    <lastBuildDate>Thu, 09 Sep 2021 18:46:45 +0900</lastBuildDate>
+    <pubDate>Thu, 09 Sep 2021 21:29:15 +0900</pubDate>
+    <lastBuildDate>Thu, 09 Sep 2021 21:29:15 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>testtest</title>
+        <description>&lt;h1 id=&quot;test-page&quot;&gt;TEST PAGE&lt;/h1&gt;
+</description>
+        <pubDate>Thu, 09 Sep 2021 18:51:00 +0900</pubDate>
+        <link>http://localhost:4000/webs/2021/09/09/webs-testtest.html</link>
+        <guid isPermaLink="true">http://localhost:4000/webs/2021/09/09/webs-testtest.html</guid>
+        
+        
+        <category>webs</category>
+        
+      </item>
     
       <item>
         <title>AI와 코세라(Coursera) 강의</title>
