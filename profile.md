@@ -2,7 +2,7 @@
 layout: base
 title: profile
 menu: true
-order: 1
+order: 2
 ---
 
 ---

@@ -5,38 +5,9 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Sep 2021 00:48:49 +0900</pubDate>
-    <lastBuildDate>Tue, 07 Sep 2021 00:48:49 +0900</lastBuildDate>
+    <pubDate>Thu, 09 Sep 2021 18:46:45 +0900</pubDate>
+    <lastBuildDate>Thu, 09 Sep 2021 18:46:45 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
-    
-      <item>
-        <title>test for post count</title>
-        <description>&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;##서론&quot;&gt;서론&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;##본론&quot;&gt;본론&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;##결론&quot;&gt;결론&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;서론&quot;&gt;서론&lt;/h2&gt;
-
-&lt;h2 id=&quot;본론&quot;&gt;본론&lt;/h2&gt;
-
-&lt;h2 id=&quot;결론&quot;&gt;결론&lt;/h2&gt;
-
-&lt;hr /&gt;
-</description>
-        <pubDate>Mon, 06 Sep 2021 11:11:11 +0900</pubDate>
-        <link>http://localhost:4000/note/2021/09/06/note-python-testfor.html</link>
-        <guid isPermaLink="true">http://localhost:4000/note/2021/09/06/note-python-testfor.html</guid>
-        
-        <category>python</category>
-        
-        
-        <category>note</category>
-        
-      </item>
     
       <item>
         <title>AI와 코세라(Coursera) 강의</title>
