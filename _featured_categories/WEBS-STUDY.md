@@ -1,7 +1,7 @@
 ---
-layout: CAT_스터디
-title: 스터디
-slug: 
+layout: CAT_WEBS-STUDY
+title: WEBS-STUDY
+slug: WEBS-STUDY
 menu: true
 submenu: false
 order: 4
