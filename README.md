@@ -1,6 +1,3 @@
-# TEST
-## TEST
-
 # 사이트 테스트 방법
 
 ## 쉘 코드(Shell Code)
