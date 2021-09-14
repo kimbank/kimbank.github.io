@@ -23,10 +23,36 @@ font-weight:bold">
 <center>100, Inha-ro, Michuhol-gu, Incheon, Republic of Korea</center>
 <br/><br/>
 
-<!-- [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=banlxx)](https://solved.ac/banlxx) -->
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=banlxx)](https://solved.ac/banlxx)
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kimbank&show_icons=true)](https://github.com/kimbank)
+
+
+<!-- http://commitcombo.com/maker -->
+<!-- [![commit combo](http://commitcombo.com/get?user=kimbank&theme=Emerald-mini)](https://github.com/devxb/commitcombo) -->
+
+
+
+<!-- https://readmeplants.com/maker?name=Devxb&planet=yellowMoon&plant=blossomTree&nameTag=blackNameTag&ground=hill&background=black -->
+[![readmeplants](https://readmeplants.com/get?name=kimbank&planet=blueMoon&plant=blossomTree&nameTag=blackNameTag&ground=hill&background=black)](https://github.com/devxb/readmeplants)
+
+
+
+<!-- https://github.com/ryo-ma/github-profile-trophy -->
+[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
+
+
+
+<!-- https://github.com/mazassumnida/mazacofo -->
+<!-- [![CodeForces Profile](https://cf.leed.at?id=banlxx)](https://codeforces.com/profile/banlxx) -->
+
+
+
+<!-- https://github.com/anuraghazra/github-readme-stats -->
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kimbank&theme=gotham&show_icons=true)
+
 ## Personal Data
+
+
 
 ---
 
