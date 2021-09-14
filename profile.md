@@ -25,6 +25,18 @@ font-weight:bold">
 
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=banlxx)](https://solved.ac/banlxx)
 
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=Malkoring)](https://solved.ac/malkoring)
+
+[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=ccoco&c=c)](https://solved.ac/ccoco)
+
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=banlxx)](https://solved.ac/banlxx)
+
+[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=banlxx)](https://solved.ac/banlxx)
+
+[![Solved.ac프로필](http://mazassumnida.wtf/api/pastel/generate_badge?boj=banlxx)](https://solved.ac/banlxx)
+
+
+
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kimbank&show_icons=true)](https://github.com/kimbank)
 ## Personal Data
 
