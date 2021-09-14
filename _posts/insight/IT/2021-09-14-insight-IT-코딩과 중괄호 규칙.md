@@ -10,10 +10,10 @@ related_posts: false
 ---
 
 # 목차
- - [Allman](#Allman)
- - [K&R](#K&R)
- - [GNU](#GNU)
- - [Haskell](#Haskell)
+ - [Allman](#allman)
+ - [K&R](#k-r)
+ - [GNU](#gnu)
+ - [Haskell](#haskell)
 
  출처는 [위키 피디아](https://en.wikipedia.org/wiki/Indentation_style)임을 밝힙니다.
 
