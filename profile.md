@@ -10,6 +10,56 @@ order: 2
 ![header](https://capsule-render.vercel.app/api?type=waving&reversal=true&color=black&text=日八冂斤&height=222&fontSize=100&animation=fadeIn&fontColor=ffffff)
 <!-- fontColor=A3DCBE //초록색 -->
 
+TEST
+
+
+
+<div>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="z-index:1;position:relative" width="854" height="222" viewBox="0 0 854 222">
+                <style>
+                            .text {
+						font-size: 100px;
+						font-weight: 700;
+						font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+					}
+					.desc {
+						font-size: 20px;
+						font-weight: 500;
+						font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+					}
+                            .text, .desc {
+							animation: fadeIn 1.2s ease-in-out forwards;
+						}@keyframes fadeIn {
+						  from {
+							opacity: 0;
+						  }
+						  to {
+							opacity: 1;
+						  }
+						};
+                        </style>
+                <g transform="translate(427, 111) scale(1, 1) translate(-427, -111)">
+                    
+                                
+                                <path d="" fill="#black" opacity="0.4" transform="scale (-1, 1)" transform-origin="center">
+                <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s" values="M0 0L 0 142Q 213.5 182 427 152T 854 177L 854 0 Z;M0 0L 0 167Q 213.5 182 427 162T 854 152L 854 0 Z;M0 0L 0 187Q 213.5 157 427 187T 854 152L 854 0 Z;M0 0L 0 142Q 213.5 182 427 152T 854 177L 854 0 Z"></animate>
+            </path>
+            <path d="" fill="#black" opacity="0.4" transform="scale (-1, 1)" transform-origin="center">
+                <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-10s" values="M0 0L 0 157Q 213.5 202 427 172T 854 182L 854 0 Z;M0 0L 0 172Q 213.5 142 427 142T 854 162L 854 0 Z;M0 0L 0 167Q 213.5 147 427 172T 854 187L 854 0 Z;M0 0L 0 157Q 213.5 202 427 172T 854 182L 854 0 Z"></animate>
+            </path>
+                </g>
+                
+                        <text text-anchor="middle" alignment-baseline="middle" x="50%" y="50%" class="text" style="fill:#ffffff;">日八冂斤</text>
+                 
+            </svg>
+</div>
+
+
+
+TEST
+
+
+
 <center>
 <img src="assets/img/me.jpg" alt="My Image">
 
