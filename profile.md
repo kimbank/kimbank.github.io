@@ -7,7 +7,7 @@ order: 2
 
 ---
 
-![header](https://capsule-render.vercel.app/api?type=waving&reversal=true&color=black&text=金　恩　行&height=222&fontSize=100&animation=fadeIn&fontColor=ffffff)
+![header](https://capsule-render.vercel.app/api?type=waving&reversal=true&color=black&text=日八冂斤&height=222&fontSize=100&animation=fadeIn&fontColor=ffffff)
 <!-- fontColor=A3DCBE //초록색 -->
 
 <center>
