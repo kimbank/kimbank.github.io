@@ -12,6 +12,7 @@ order: 2
 
 <center>
 <img src="assets/img/me.jpg" alt="My Image">
+
 <span style=
 "font-size:170%;
 font-weight:bold">
@@ -48,12 +49,7 @@ font-weight:bold">
 
 
 <!-- https://readmeplants.com/maker?name=Devxb&planet=yellowMoon&plant=blossomTree&nameTag=blackNameTag&ground=hill&background=black -->
-[![readmeplants](https://readmeplants.com/get?name=kimbank&planet=blueMoon&plant=blossomTree&nameTag=blackNameTag&ground=hill&background=black)](https://github.com/devxb/readmeplants)
-
-
-
-<!-- https://github.com/ryo-ma/github-profile-trophy -->
-[![trophy](https://github-profile-trophy.vercel.app/?username=kimbank)](https://github.com/kimbank/)
+<!-- [![readmeplants](https://readmeplants.com/get?name=kimbank&planet=blueMoon&plant=blossomTree&nameTag=blackNameTag&ground=hill&background=black)](https://github.com/devxb/readmeplants)  -->
 
 
 
@@ -62,8 +58,19 @@ font-weight:bold">
 
 
 
+<center>
+
 <!-- https://github.com/anuraghazra/github-readme-stats -->
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kimbank&theme=gotham&show_icons=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kimbank&theme=graywhite&show_icons=true)
+</center>
+
+
+
+<!-- https://github.com/ryo-ma/github-profile-trophy -->
+<!-- [![trophy](https://github-profile-trophy.vercel.app/?username=kimbank)](https://github.com/kimbank/) -->
+
+
+<center>
 
 ## Personal Data
 
