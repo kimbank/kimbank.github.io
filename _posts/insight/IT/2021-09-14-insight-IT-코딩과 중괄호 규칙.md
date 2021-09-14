@@ -11,7 +11,7 @@ related_posts: false
 
 # 목차
  - [Allman](#allman)
- - [K&R](#k-r)
+ - [K&R](#kr)
  - [GNU](#gnu)
  - [Haskell](#haskell)
 
