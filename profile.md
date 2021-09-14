@@ -7,7 +7,7 @@ order: 2
 
 ---
 
-![header](https://capsule-render.vercel.app/api?type=waving&reversal=true&color=black&text=日八冂斤&height=222&fontSize=100&animation=fadeIn&fontColor=ffffff)
+![header](https://capsule-render.vercel.app/api?type=waving&reversal=true&color=black&text=日八冂斤&height=222&fontSize=100&animation=fadeIn&fontColor=5fc397)
 <!-- fontColor=A3DCBE //초록색 -->
 
 
@@ -70,7 +70,7 @@ font-weight:bold">
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 <!-- ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kimbank&theme=graywhite&show_icons=true) -->
 
-<a href="https://github.com/kimbank" target = "_blank"><img src="https://github-readme-stats.vercel.app/api?username=kimbank&theme=graywhite&show_icons=true" alt="Anurag's GitHub stats"></a>
+<a href="https://github.com/kimbank" target = "_blank"><img src="https://github-readme-stats.vercel.app/api?username=kimbank&theme=vue&show_icons=true" alt="Anurag's GitHub stats"></a>
 
 </center>
 <br/><br/>
