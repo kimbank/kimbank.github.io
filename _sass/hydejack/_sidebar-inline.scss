@@ -1,5 +1,5 @@
 .sidebar {
-  color: rgba(255,255,255,.75);
+  color: rgba(255, 255, 255, 0.75);
   text-align: left;
 
   &::before {
@@ -14,7 +14,11 @@
     // /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#202020+0,202020+100&0+0,0.5+100 */
     // background: -moz-linear-gradient(top, rgba(32,32,32,0) 0%, rgba(32,32,32,0.5) 100%); /* FF3.6-15 */
     // background: -webkit-linear-gradient(top, rgba(32,32,32,0) 0%,rgba(32,32,32,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(32,32,32,0) 0%,rgba(32,32,32,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(
+      to bottom,
+      rgba(32, 32, 32, 0) 0%,
+      rgba(32, 32, 32, 0.5) 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00202020', endColorstr='#80202020',GradientType=0 ); /* IE6-9 */
   }
 
@@ -30,20 +34,19 @@
 }
 
 .right-side {
-  width:100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 
-  .ad-first{
+  .ad-first {
     text-align: center;
   }
-
 
   @media screen {
     max-width: 38rem;
     min-height: 100vh;
 
-    .ad-second{
+    .ad-second {
       display: none;
     }
   }
@@ -53,7 +56,7 @@
     margin-right: 1rem;
     padding: 4rem 1rem 12rem;
 
-    .ad-second{
+    .ad-second {
       text-align: center;
       display: block;
     }
@@ -65,18 +68,18 @@
   }
 
   @media screen and (min-width: $break-point-4) {
-  width:162px;
-  margin-left: 0rem;
-  margin-right: 0rem;
-  padding: 0rem;
-  margin-top: 10rem;
-  display: block;
-  float: left;
+    width: 162px;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding: 0rem;
+    margin-top: 10rem;
+    display: block;
+    float: left;
   }
 
   @media screen and (min-width: $break-point-5) {
-  width:300px;
-  margin-right:0rem;
+    width: 300px;
+    margin-right: 0rem;
   }
 
   @media screen and (min-width: $break-point-dynamic) {
@@ -95,8 +98,6 @@
     width: 18rem; // duplicate!
     margin-left: 0;
   }
-
-
 }
 
 .sidebar-bg {
@@ -120,18 +121,18 @@
   z-index: 3;
 
   @media screen {
-    -ms-overflow-style: none;  // IE 10+
-    overflow: -moz-scrollbars-none;  // Firefox
+    -ms-overflow-style: none; // IE 10+
+    overflow: -moz-scrollbars-none; // Firefox
     height: 100%;
-   overflow: auto;
+    overflow: auto;
     position: absolute;
     padding: 3rem 0rem;
     right: 2.5rem;
-    left:   2.5rem;
+    left: 2.5rem;
   }
 }
 .sidebar-sticky::-webkit-scrollbar {
-    display: none;  // Safari and Chrome
+  display: none; // Safari and Chrome
 }
 
 /* About section */
@@ -143,16 +144,16 @@
 .sidebar-nav > ul {
   list-style: none;
   padding-left: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   // border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 a.sidebar-nav-item {
-  width:100%;
+  width: 100%;
   font-weight: normal;
   display: block;
   line-height: 1.75;
-  padding: .25rem 0;
+  padding: 0.25rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -160,7 +161,7 @@ a.sidebar-nav-subitem {
   font-weight: normal;
   display: block;
   line-height: 1.75;
-  padding: .25rem 0;
+  padding: 0.25rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
