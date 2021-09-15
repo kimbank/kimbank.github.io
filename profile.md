@@ -7,8 +7,11 @@ order: 2
 
 ---
 
+
+<center>
 ![header](https://capsule-render.vercel.app/api?type=waving&reversal=true&color=black&text=日八冂斤&height=222&fontSize=100&animation=fadeIn&fontColor=5fc397)
 <!-- fontColor=A3DCBE //초록색 -->
+</center>
 
 
 
@@ -35,7 +38,7 @@ font-weight:bold">
 
 
 
-
+<center>
 <svg height="170" width="350"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -205,7 +208,7 @@ font-weight:bold">
     <text x="297" y="142" alignment-baseline="middle" class="percentage">24%</text>
     <text x="293" y="157" class="progress" text-anchor="end">224 / 300</text>
 </svg>
-
+</center>
 
 
 
