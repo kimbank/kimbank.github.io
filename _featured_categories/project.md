@@ -4,5 +4,5 @@ title: project
 slug: project
 menu: true
 submenu: true
-order: 3
+order: 2
 ---

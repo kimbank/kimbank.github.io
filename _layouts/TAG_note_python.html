@@ -31,8 +31,6 @@ layout: base
   {% assign date = currentdate %}
   {% endif %}
   {% include post-list-item.html post=post format=" &nbsp;&nbsp;&nbsp;%b %d" %}
-  <sup><sub>{% include tag-list.html tags=post.tags meta=site.featured_tags start_with=" &nbsp;&nbsp;&nbsp;/ " separator=", "
-      %}</sub></sup>
   {% if forloop.last %}
 </ul>{% endif %}
 {% endfor %}

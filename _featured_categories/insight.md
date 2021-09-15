@@ -4,5 +4,5 @@ title: insight
 slug: insight
 menu: true
 submenu: true
-order: 2
+order: 3
 ---
