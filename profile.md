@@ -210,7 +210,7 @@ font-weight:bold">
     <line x1="35" y1="142" x2="290" y2="142" stroke-width="4" stroke-opacity="40%" stroke="floralwhite" stroke-linecap="round"/>
     <text x="297" y="142" alignment-baseline="middle" class="percentage">24%</text>
     <text x="293" y="157" class="progress" text-anchor="end">224 / 300</text>
-</svg> <a href="https://github.com/kimbank" target = "_blank"><img src="https://github-readme-stats.vercel.app/api?username=kimbank&theme=vue&show_icons=true" alt="Anurag's GitHub stats"></a>
+</svg> <a href="https://github.com/kimbank" target = "_blank"><img src="https://github-readme-stats.vercel.app/api?username=kimbank&theme=vue&line_height=21&show_icons=true" alt="Anurag's GitHub stats"></a>
 </center>
 
 
