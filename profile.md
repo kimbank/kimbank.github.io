@@ -14,7 +14,7 @@ order: 2
 <!-- fontColor=A3DCBE //초록색 -->
 
 
-<a href="https://github.com/kimbank" target = "_blank"><img src="https://capsule-render.vercel.app/api?type=waving&reversal=true&color=1f354a&text=日八冂斤&height=222&fontSize=100&animation=fadeIn&fontColor=259076" alt="flag"></a>
+<a href="https://github.com/kimbank" target = "_blank"><img src="https://capsule-render.vercel.app/api?type=waving&reversal=true&color=6e747e&text=日八冂斤&height=222&fontSize=100&animation=fadeIn&fontColor=259076" alt="flag"></a>
 
 </center>
 
