@@ -4,6 +4,6 @@ title: note
 slug: note
 menu: true
 submenu: true
-order: 5
+order: 4
 description: >
 ---
