@@ -34,6 +34,27 @@ YEAR-MONTH-DAY-Categories-Tags-PostTitle.md
 
 
 
+# UML 및 다이어그램 사용법
+`_includes/post.html` 에 
+```html
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+```
+코드가 추가되어 있어 `post` 레이아웃의 게시글은 다이어그램 작성 가능
+
+`post` 레이아웃이 아닌 곳에서 사용하고 싶다면 위의 코드를 해당 마크다운 파일의 최상단에 삽입하고 아래의 사용법 대로 다이어그램 작성하면 됨
+
+
+```html
+<div class="mermaid"> 
+  
+  {그래프 내용}
+
+</div>
+```
+형식으로 작성하면 됨
+
+
 # 주의사항
 
 > 모든 이미지 파일은 `/assets` 경로를 통해서만 정상 작동한다.
