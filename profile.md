@@ -304,27 +304,3 @@ font-weight:bold">
 > 2021 ~
 >
 > **인하대학교** <sub><sup>_인천광역시_</sup></sub>
-
-
-```flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-
-<div class="mermaid"> 
-  graph TD; A-->B; A-->C; B-->D; C-->D; 
-</div>
-
-```mermaid
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
-```

@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Sep 2021 14:18:53 +0900</pubDate>
-    <lastBuildDate>Thu, 16 Sep 2021 14:18:53 +0900</lastBuildDate>
+    <pubDate>Thu, 16 Sep 2021 14:30:15 +0900</pubDate>
+    <lastBuildDate>Thu, 16 Sep 2021 14:30:15 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -516,6 +516,10 @@ int main()
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;개요&quot;&gt;개요&lt;/h1&gt;
+
+&lt;div class=&quot;mermaid&quot;&gt; 
+  graph TD; A--&amp;gt;B; A--&amp;gt;C; B--&amp;gt;D; C--&amp;gt;D; 
+&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;quantitative(계량적, 측정할 수 있는)&lt;/strong&gt; 와 &lt;strong&gt;analyst(분석가)&lt;/strong&gt; 의 합성어이다.&lt;br /&gt;
 수학·통계와 같은 계량적 수단에 기반해 투자모델을 만들거나 금융시장 변화를 예측하는 사람을 말한다.&lt;/p&gt;
