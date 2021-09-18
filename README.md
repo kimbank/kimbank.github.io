@@ -12,14 +12,14 @@ $ bundle exec jekyll serve
 $ ^C
 ```
 
-
+<br/><br/>
 
 ## 테스트 사이트 주소
 
 [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
 cmd + click(클릭)
 
-
+<br/><br/>
 
 ## 포스트 마크다운 파일 작명 규칙
 
@@ -32,7 +32,7 @@ YEAR-MONTH-DAY-Categories-Tags-PostTitle.md
 
 공백은 하이픈 `-`으로 표현한다.
 
-
+<br/><br/><br/>
 
 # UML 및 다이어그램 사용법
 `_includes/post.html` 에 
@@ -54,6 +54,7 @@ YEAR-MONTH-DAY-Categories-Tags-PostTitle.md
 ```
 형식으로 작성하면 됨
 
+<br/><br/><br/>
 
 # 주의사항
 
