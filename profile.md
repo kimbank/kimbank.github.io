@@ -308,7 +308,7 @@ function copyToClipboard(elementId) {
 
 > Birth : [2001.08.17](https://en.wikipedia.org/wiki/2001#Births)
 
-> Email : <button onclick="copyToClipboard('text1')">kimeunhang@inha.edu</button> <sup><sub>(click for copy)</sub></sup>
+> Email : <button onclick="copyToClipboard('text1')">kimeunhang@inha.edu</button> <sub><sup><sub>(click for copy)</sub></sup></sub>
 
 > Github : <a href="https://github.com/kimbank">https://github.com/kimbank</a>
 
