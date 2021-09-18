@@ -1,10 +1,9 @@
 <footer>
   <hr/>
-  {% if site.copyright.size > 0 %}
+  <code>{% if site.copyright.size > 0 %}
     {{ site.copyright | markdownify }}
   {% endif %}
   <p>
-    { post.date | date: "%Y %b %d" }
-    <code>Powered by <a href="http://themes.jekyllrc.org/hydejack/">hydejack</a></code>
+    Powered by <a href="http://themes.jekyllrc.org/hydejack/">hydejack</a></code>
   </p>
 </footer>
