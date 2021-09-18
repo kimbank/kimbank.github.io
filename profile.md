@@ -267,6 +267,9 @@ font-weight:bold">
 
 ## Personal Data
 
+
+<!-- 텍스트 복사 버튼 스크립트 -->
+
 <script>
 
 // 클립보드로 복사하는 기능을 생성
@@ -297,13 +300,15 @@ function copyToClipboard(elementId) {
 <!--복사할 텍스트 만들기-->
 <p id="text1">kimeunhang@inha.edu </p>
 
+<!-- 텍스트 복사 버튼 스크립트 -->
+
 
 
 ---
 
 > Birth : [2001.08.17](https://en.wikipedia.org/wiki/2001#Births)
 
-> Email : [kimeunhang@inha.edu] <button onclick="copyToClipboard('text1')">텍스트 복사하기</button>
+> Email : <button onclick="copyToClipboard('text1')">kimeunhang@inha.edu</button> <sup><sub>(click for copy)</sub></sup>
 
 > Github : <a href="https://github.com/kimbank">https://github.com/kimbank</a>
 
