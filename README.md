@@ -12,14 +12,14 @@ $ bundle exec jekyll serve
 $ ^C
 ```
 
-<br/><br/>
+<br/>
 
 ## 테스트 사이트 주소
 
 [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
 cmd + click(클릭)
 
-<br/><br/>
+<br/>
 
 ## 포스트 마크다운 파일 작명 규칙
 
