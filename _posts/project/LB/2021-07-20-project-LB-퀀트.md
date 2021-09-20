@@ -9,15 +9,6 @@ comments: false
 related_posts: false
 ---
 
-
-<div class="mermaid"> 
-  
-  graph TD; A-->B;
-
-</div>
-
-
-
 # 목차
 
 - [개요](#개요)
