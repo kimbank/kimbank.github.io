@@ -7,8 +7,6 @@ categories: note
 tags: markdown
 comments: false
 related_posts: false
-#   - category/_posts/study/2020-12-26-making-blog-02.md
-#   - category/_posts/study/2020-12-26-making-blog-03.md
 ---
 
 # 목차
