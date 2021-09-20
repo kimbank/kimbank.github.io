@@ -1,6 +1,6 @@
 ---
 layout: TAG_project_LB
-title: LB
+title: Livermore Bank
 slug: LB
 category: project
 menu: false
