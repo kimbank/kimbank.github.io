@@ -39,6 +39,8 @@ YEAR-MONTH-DAY-Categories-Tags-PostTitle.md
 ```html
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({startOnLoad:true});</script>
+
+***오류 발견으로 보류됨***
 ```
 코드가 추가되어 있어 `post` 레이아웃의 게시글은 다이어그램 작성 가능
 

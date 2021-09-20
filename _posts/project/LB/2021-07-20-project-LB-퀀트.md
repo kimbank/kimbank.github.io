@@ -6,9 +6,7 @@ date: 2021-07-20 16:11:11 +0900
 categories: project
 tags: LB
 comments: false
-related_posts:
-#   - category/_posts/study/2020-12-26-making-blog-02.md
-#   - category/_posts/study/2020-12-26-making-blog-03.md
+related_posts: false
 ---
 
 # 목차
@@ -18,12 +16,6 @@ related_posts:
 - [결론](#결론)
 
 # 개요
-
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
-<div class="mermaid"> 
-  graph TD; A-->B; A-->C; B-->D; C-->D; 
-</div>
 
 **quantitative(계량적, 측정할 수 있는)** 와 **analyst(분석가)** 의 합성어이다.  
 수학·통계와 같은 계량적 수단에 기반해 투자모델을 만들거나 금융시장 변화를 예측하는 사람을 말한다.

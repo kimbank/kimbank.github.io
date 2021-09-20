@@ -6,10 +6,13 @@ date: 2021-09-19 16:11:11 +0900
 categories: project
 tags: LB
 comments: false
-related_posts:
-#   - category/_posts/study/2020-12-26-making-blog-02.md
-#   - category/_posts/study/2020-12-26-making-blog-03.md
+related_posts: false
 ---
+
+<!-- related_posts 작성법 -->
+<!--   - category/_posts/study/2020-12-26-making-blog-02.md    -->
+<!--   - category/_posts/study/2020-12-26-making-blog-03.md    -->
+
 
 # 목차
 
