@@ -20,9 +20,9 @@ related_posts:
 # 개요
 
 
-<!-- <div class="mermaid"> 
+<div class="mermaid"> 
   graph TD; A-->B; A-->C; B-->D; C-->D; 
-</div> -->
+</div>
 
 **quantitative(계량적, 측정할 수 있는)** 와 **analyst(분석가)** 의 합성어이다.  
 수학·통계와 같은 계량적 수단에 기반해 투자모델을 만들거나 금융시장 변화를 예측하는 사람을 말한다.
