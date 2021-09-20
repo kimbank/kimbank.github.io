@@ -4,7 +4,7 @@ title: "퀀트"
 subtitle: ""
 date: 2021-07-20 16:11:11 +0900
 categories: project
-tags: Livermore_Bank
+tags: LB
 comments: false
 related_posts:
 #   - category/_posts/study/2020-12-26-making-blog-02.md
