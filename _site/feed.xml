@@ -5,9 +5,35 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Sep 2021 14:30:15 +0900</pubDate>
-    <lastBuildDate>Thu, 16 Sep 2021 14:30:15 +0900</lastBuildDate>
+    <pubDate>Mon, 20 Sep 2021 13:09:09 +0900</pubDate>
+    <lastBuildDate>Mon, 20 Sep 2021 13:09:09 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>[IDE 탐구] #00 IDE란?</title>
+        <description>&lt;h1 id=&quot;ide란&quot;&gt;IDE란&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Integrated Development Environment&lt;/code&gt;의 약자로 직역하면 &lt;code class=&quot;highlighter-rouge&quot;&gt;통합 개발 환경&lt;/code&gt; 정도가 되겠다.&lt;/p&gt;
+
+&lt;h1 id=&quot;sdk&quot;&gt;SDK&lt;/h1&gt;
+
+&lt;p&gt;#&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;sup&gt;&lt;sub&gt; &lt;a href=&quot;#목차&quot;&gt;목차&lt;/a&gt; &lt;/sub&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;!-- &lt;sub&gt;&lt;sup&gt;[]&lt;/sup&gt;&lt;/sub&gt; --&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Sep 2021 14:51:00 +0900</pubDate>
+        <link>http://localhost:4000/insight/2021/09/16/insight-IT-IDE-%ED%83%90%EA%B5%AC-00.html</link>
+        <guid isPermaLink="true">http://localhost:4000/insight/2021/09/16/insight-IT-IDE-%ED%83%90%EA%B5%AC-00.html</guid>
+        
+        <category>IT</category>
+        
+        
+        <category>insight</category>
+        
+      </item>
     
       <item>
         <title>코딩과 중괄호</title>
