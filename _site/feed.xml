@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Sep 2021 13:09:09 +0900</pubDate>
-    <lastBuildDate>Mon, 20 Sep 2021 13:09:09 +0900</lastBuildDate>
+    <pubDate>Mon, 20 Sep 2021 13:21:19 +0900</pubDate>
+    <lastBuildDate>Mon, 20 Sep 2021 13:21:19 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -561,10 +561,10 @@ int main()
 &lt;hr /&gt;
 </description>
         <pubDate>Tue, 20 Jul 2021 16:11:11 +0900</pubDate>
-        <link>http://localhost:4000/project/2021/07/20/project-Livermore-Bank-%ED%80%80%ED%8A%B8%ED%88%AC%EC%9E%90.html</link>
-        <guid isPermaLink="true">http://localhost:4000/project/2021/07/20/project-Livermore-Bank-%ED%80%80%ED%8A%B8%ED%88%AC%EC%9E%90.html</guid>
+        <link>http://localhost:4000/project/2021/07/20/project-Livermore_Bank-%ED%80%80%ED%8A%B8.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2021/07/20/project-Livermore_Bank-%ED%80%80%ED%8A%B8.html</guid>
         
-        <category>Livermore-Bank</category>
+        <category>Livermore_Bank</category>
         
         
         <category>project</category>
