@@ -9,6 +9,8 @@ comments: false
 related_posts: false
 ---
 
+<a onClick="window.location.reload()" style="cursor: pointer;">[새로고침]</a>
+
 # 목차
 
 - [개요](#개요)

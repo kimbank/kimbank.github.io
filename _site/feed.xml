@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Sep 2021 00:04:10 +0900</pubDate>
-    <lastBuildDate>Wed, 22 Sep 2021 00:04:10 +0900</lastBuildDate>
+    <pubDate>Wed, 22 Sep 2021 00:16:54 +0900</pubDate>
+    <lastBuildDate>Wed, 22 Sep 2021 00:16:54 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -580,7 +580,9 @@ int main()
     
       <item>
         <title>퀀트의 역사</title>
-        <description>&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
+        <description>&lt;p&gt;&lt;a onclick=&quot;window.location.reload()&quot; style=&quot;cursor: pointer;&quot;&gt;[새로고침]&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#개요&quot;&gt;개요&lt;/a&gt;&lt;/li&gt;
