@@ -9,9 +9,10 @@ comments: false
 related_posts: false
 ---
 # 목차
-  - [IDE (Integrated Development Environment)](#ide)
-  - [SDK (Software Development Kit)](#sdk)
-  - [API](#api)
+  - [IDE (Integrated Development Environment)](#ide-integrated-development-environment)
+  - [SDK (Software Development Kit)](#sdk-software-development-kit)
+  - [API (Application Programming Interface)](#api-application-programming-interface)
+
 
 소프트웨어 개발을 하기 위한 구성 요소들을 알 필요가 있어서 `IDE`, `SDK`, `API`로 구분해 놓았다.
 
@@ -39,7 +40,7 @@ related_posts: false
 예시로는 `Oracle`에서 `JAVA`라는 프로그래밍 언어를 이용한 소프트웨어 개발을 돕기 위해 배포한 [`JDK(Java Development Kit)`](https://www.oracle.com/java/technologies/downloads/#java16)가 있다.
 
 `SDK`는 위의 사진과 같이 `UI(User Interface)`를 제공하지 않기도 한다.
-반면 `IDE`는 위의 [Xcode사진](#ide)와 같이 개발의 생산성을 높여주는 `UI`를 제공한다.
+반면 `IDE`는 위의 [Xcode사진](#ide-integrated-development-environment)와 같이 개발의 생산성을 높여주는 `UI`를 제공한다.
 
 <br/><br/><br/>
 
