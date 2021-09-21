@@ -1,18 +1,13 @@
 ---
 layout: post
-title: "test"
+title: "퀀트의 역사"
 subtitle: ""
-date: 2021-09-19 16:11:11 +0900
+date: 2021-07-20 16:11:11 +0900
 categories: project
 tags: LB
 comments: false
 related_posts: false
 ---
-
-<!-- related_posts 작성법 -->
-<!--   - category/_posts/study/2020-12-26-making-blog-02.md    -->
-<!--   - category/_posts/study/2020-12-26-making-blog-03.md    -->
-
 
 # 목차
 
@@ -21,6 +16,13 @@ related_posts: false
 - [결론](#결론)
 
 # 개요
+
+
+<div class="mermaid"> 
+  
+  graph TD; A-->B; A-->C; B-->D; C-->D;
+
+</div>
 
 
 **quantitative(계량적, 측정할 수 있는)** 와 **analyst(분석가)** 의 합성어이다.  

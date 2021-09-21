@@ -5,49 +5,9 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Sep 2021 23:25:08 +0900</pubDate>
-    <lastBuildDate>Tue, 21 Sep 2021 23:25:08 +0900</lastBuildDate>
+    <pubDate>Tue, 21 Sep 2021 23:39:50 +0900</pubDate>
+    <lastBuildDate>Tue, 21 Sep 2021 23:39:50 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
-    
-      <item>
-        <title>test</title>
-        <description>&lt;!-- related_posts 작성법 --&gt;
-&lt;!--   - category/_posts/study/2020-12-26-making-blog-02.md    --&gt;
-&lt;!--   - category/_posts/study/2020-12-26-making-blog-03.md    --&gt;
-
-&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#개요&quot;&gt;개요&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#역사&quot;&gt;역사&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#결론&quot;&gt;결론&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;개요&quot;&gt;개요&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;quantitative(계량적, 측정할 수 있는)&lt;/strong&gt; 와 &lt;strong&gt;analyst(분석가)&lt;/strong&gt; 의 합성어이다.&lt;br /&gt;
-수학·통계와 같은 계량적 수단에 기반해 투자모델을 만들거나 금융시장 변화를 예측하는 사람을 말한다.&lt;/p&gt;
-
-&lt;h1 id=&quot;역사&quot;&gt;역사&lt;/h1&gt;
-
-&lt;p&gt;퀀트는 수리 금융학의 개척자로 알려진 프랑스 출신 &lt;a href=&quot;https://en.wikipedia.org/wiki/Louis_Bachelier&quot;&gt;루이 바슐리에&lt;/a&gt;의 &lt;a href=&quot;https://www.investmenttheory.org/uploads/3/4/8/2/34825752/emhbachelier.pdf&quot;&gt;The Theory of Speculation&lt;/a&gt;에서 기원을 찾을 수 있다.&lt;/p&gt;
-
-&lt;h1 id=&quot;결론&quot;&gt;결론&lt;/h1&gt;
-
-&lt;p&gt;&lt;sup&gt;&lt;sub&gt; &lt;a href=&quot;#목차&quot;&gt;목차&lt;/a&gt; &lt;/sub&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
-        <pubDate>Sun, 19 Sep 2021 16:11:11 +0900</pubDate>
-        <link>http://localhost:4000/project/2021/09/19/project-LB-test.html</link>
-        <guid isPermaLink="true">http://localhost:4000/project/2021/09/19/project-LB-test.html</guid>
-        
-        <category>LB</category>
-        
-        
-        <category>project</category>
-        
-      </item>
     
       <item>
         <title>[IDE 탐구] #00 IDE와 소프트웨어 개발</title>
@@ -619,7 +579,7 @@ int main()
       </item>
     
       <item>
-        <title>퀀트</title>
+        <title>퀀트의 역사</title>
         <description>&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -629,6 +589,12 @@ int main()
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;개요&quot;&gt;개요&lt;/h1&gt;
+
+&lt;div class=&quot;mermaid&quot;&gt; 
+  
+  graph TD; A--&amp;gt;B; A--&amp;gt;C; B--&amp;gt;D; C--&amp;gt;D;
+
+&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;quantitative(계량적, 측정할 수 있는)&lt;/strong&gt; 와 &lt;strong&gt;analyst(분석가)&lt;/strong&gt; 의 합성어이다.&lt;br /&gt;
 수학·통계와 같은 계량적 수단에 기반해 투자모델을 만들거나 금융시장 변화를 예측하는 사람을 말한다.&lt;/p&gt;
@@ -644,8 +610,8 @@ int main()
 &lt;hr /&gt;
 </description>
         <pubDate>Tue, 20 Jul 2021 16:11:11 +0900</pubDate>
-        <link>http://localhost:4000/project/2021/07/20/project-LB-%ED%80%80%ED%8A%B8.html</link>
-        <guid isPermaLink="true">http://localhost:4000/project/2021/07/20/project-LB-%ED%80%80%ED%8A%B8.html</guid>
+        <link>http://localhost:4000/project/2021/07/20/project-LB-%ED%80%80%ED%8A%B8%EC%9D%98-%EC%97%AD%EC%82%AC.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2021/07/20/project-LB-%ED%80%80%ED%8A%B8%EC%9D%98-%EC%97%AD%EC%82%AC.html</guid>
         
         <category>LB</category>
         
