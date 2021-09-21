@@ -5,13 +5,17 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Sep 2021 13:54:40 +0900</pubDate>
-    <lastBuildDate>Mon, 20 Sep 2021 13:54:40 +0900</lastBuildDate>
+    <pubDate>Tue, 21 Sep 2021 23:25:08 +0900</pubDate>
+    <lastBuildDate>Tue, 21 Sep 2021 23:25:08 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>test</title>
-        <description>&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
+        <description>&lt;!-- related_posts 작성법 --&gt;
+&lt;!--   - category/_posts/study/2020-12-26-making-blog-02.md    --&gt;
+&lt;!--   - category/_posts/study/2020-12-26-making-blog-03.md    --&gt;
+
+&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#개요&quot;&gt;개요&lt;/a&gt;&lt;/li&gt;
@@ -20,10 +24,6 @@
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;개요&quot;&gt;개요&lt;/h1&gt;
-
-&lt;div class=&quot;mermaid&quot;&gt; 
-  graph TD; A--&amp;gt;B; A--&amp;gt;C; B--&amp;gt;D; C--&amp;gt;D; 
-&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;quantitative(계량적, 측정할 수 있는)&lt;/strong&gt; 와 &lt;strong&gt;analyst(분석가)&lt;/strong&gt; 의 합성어이다.&lt;br /&gt;
 수학·통계와 같은 계량적 수단에 기반해 투자모델을 만들거나 금융시장 변화를 예측하는 사람을 말한다.&lt;/p&gt;
@@ -50,14 +50,61 @@
       </item>
     
       <item>
-        <title>[IDE 탐구] #00 IDE란?</title>
-        <description>&lt;h1 id=&quot;ide란&quot;&gt;IDE란&lt;/h1&gt;
+        <title>[IDE 탐구] #00 IDE와 소프트웨어 개발</title>
+        <description>&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#ide-integrated-development-environment&quot;&gt;IDE (Integrated Development Environment)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#sdk-software-development-kit&quot;&gt;SDK (Software Development Kit)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#api-application-programming-interface&quot;&gt;API (Application Programming Interface)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Integrated Development Environment&lt;/code&gt;의 약자로 직역하면 &lt;code class=&quot;highlighter-rouge&quot;&gt;통합 개발 환경&lt;/code&gt; 정도가 되겠다.&lt;/p&gt;
+&lt;p&gt;소프트웨어 개발을 하기 위한 구성 요소들을 알 필요가 있어서 &lt;code class=&quot;highlighter-rouge&quot;&gt;IDE&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;SDK&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;API&lt;/code&gt;로 구분해 놓았다.&lt;/p&gt;
 
-&lt;h1 id=&quot;sdk&quot;&gt;SDK&lt;/h1&gt;
+&lt;h1 id=&quot;ide-integrated-development-environment&quot;&gt;IDE (Integrated Development Environment)&lt;/h1&gt;
 
-&lt;p&gt;#&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://medium.com/developerinsider/whats-new-in-xcode-10-fddeab035d05&quot;&gt;&lt;img src=&quot;https://miro.medium.com/max/4000/0*b4bgL-NR2GorAQw2&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;em&gt;&amp;gt; Mac OS에서만 이용가능한 IDE인 Xcode이다.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Integrated Development Environment&lt;/code&gt;의 약자로 직역하면 &lt;code class=&quot;highlighter-rouge&quot;&gt;통합 개발 환경&lt;/code&gt; 정도가 된다.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;IDE&lt;/code&gt;는 대체적으로 하나의 서비스 또는 프로그램을 개발하기 위한 도구인 코드편집기, 컴파일러, 디버거 등을 제공한다.
+사진속에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;IOS&lt;/code&gt;의 어플리케이션을 제작하고 테스트하는 것이 보인다.
+위와 같이, 프로그램을 만들고, 테스트를 하는 등 하나의 소프트웨어 제작을 위한 기능을 제공하는 것이 특징이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;sdk-software-development-kit&quot;&gt;SDK (Software Development Kit)&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.wikihow.com/Install-the-Java-Software-Development-Kit&quot;&gt;&lt;img src=&quot;https://www.wikihow.com/images/thumb/c/cb/Install-the-Java-Software-Development-Kit-Step-20-Version-4.jpg/aid123595-v4-728px-Install-the-Java-Software-Development-Kit-Step-20-Version-4.jpg.webp&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;em&gt;&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;JDK&lt;/code&gt;의 설치를 확인하는 장면이다.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Software Development kit&lt;/code&gt;의 약자로 직역하면 &lt;code class=&quot;highlighter-rouge&quot;&gt;소프트웨어 개발 도구&lt;/code&gt; 정도가 된다.
+일반적으로 운영체제를 개발한 개발사가 해당 운영체제의 시장 장악을 위해 배포한다.
+예시로는 &lt;code class=&quot;highlighter-rouge&quot;&gt;Oracle&lt;/code&gt;에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;JAVA&lt;/code&gt;라는 프로그래밍 언어를 이용한 소프트웨어 개발을 돕기 위해 배포한 &lt;a href=&quot;https://www.oracle.com/java/technologies/downloads/#java16&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;JDK(Java Development Kit)&lt;/code&gt;&lt;/a&gt;가 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SDK&lt;/code&gt;는 위의 사진과 같이 &lt;code class=&quot;highlighter-rouge&quot;&gt;UI(User Interface)&lt;/code&gt;를 제공하지 않기도 한다.
+반면 &lt;code class=&quot;highlighter-rouge&quot;&gt;IDE&lt;/code&gt;는 위의 &lt;a href=&quot;#ide-integrated-development-environment&quot;&gt;Xcode사진&lt;/a&gt;와 같이 개발의 생산성을 높여주는 &lt;code class=&quot;highlighter-rouge&quot;&gt;UI&lt;/code&gt;를 제공한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;api-application-programming-interface&quot;&gt;API (Application Programming Interface)&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src=&quot;/assets/posts_image/insight_IT/kiwoomKOA.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;&amp;gt; 키움증권에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;OpenAPI&lt;/code&gt;사용자를 위해 제작한 문서의 일부분이다.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Application Programming Interface&lt;/code&gt;의 약자로 직역하면 &lt;code class=&quot;highlighter-rouge&quot;&gt;응용 프로그래밍 인터페이스&lt;/code&gt; 정도가 된다.
+요즘은 다양한 서비스들이 서로 상호작용하는 경우가 많다.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;API&lt;/code&gt;는 이미 존재하는 서비스의 데이터를 나의 소프트웨어로 불러오는데 도움을 준다.&lt;/p&gt;
+
+&lt;p&gt;예시로는, 키움증권에서 제공하는 &lt;a href=&quot;https://www.kiwoom.com/h/customer/download/VOpenApiInfoView?dummyVal=0&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenAPI&lt;/code&gt;&lt;/a&gt;를 통해 키움증권의 거래 데이터를 불러 오는 것이 있다.
+만약 주식거래 인공지능 소프트웨어를 개발중인 상황이라면, 인공지능의 학습을 위한 주식거래 데이터가 필요할 것이다.
+주식거래의 데이터를 &lt;code class=&quot;highlighter-rouge&quot;&gt;OpenAPI&lt;/code&gt;로 불러와서 인공지능을 학습시키는 데에 사용하면 된다.&lt;/p&gt;
+
+&lt;p&gt;단적이 예일 뿐, &lt;code class=&quot;highlighter-rouge&quot;&gt;API&lt;/code&gt;는 제공하는 주체에 따라 기능이 매우 다양하고 그만큼 활용할 수 있는 방법의 수도 다양하다.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;sup&gt;&lt;sub&gt; &lt;a href=&quot;#목차&quot;&gt;목차&lt;/a&gt; &lt;/sub&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -582,10 +629,6 @@ int main()
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;개요&quot;&gt;개요&lt;/h1&gt;
-
-&lt;div class=&quot;mermaid&quot;&gt; 
-  graph TD; A--&amp;gt;B; A--&amp;gt;C; B--&amp;gt;D; C--&amp;gt;D; 
-&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;quantitative(계량적, 측정할 수 있는)&lt;/strong&gt; 와 &lt;strong&gt;analyst(분석가)&lt;/strong&gt; 의 합성어이다.&lt;br /&gt;
 수학·통계와 같은 계량적 수단에 기반해 투자모델을 만들거나 금융시장 변화를 예측하는 사람을 말한다.&lt;/p&gt;
