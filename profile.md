@@ -20,7 +20,7 @@ order: 1
 
 
 <center>
-<img src="assets/img/me.jpg" alt="My Image">
+<img src="assets/img/profile.png" alt="My Image">
 
 <span style=
 "font-size:170%;
