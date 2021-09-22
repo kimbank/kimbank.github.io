@@ -23,6 +23,7 @@ sequenceDiagram;
 
 </div>
 
+<br/><br/>
 
 <div class="mermaid"> 
 
@@ -30,9 +31,9 @@ sequenceDiagram;
     participant Alice;
     participant Bob;
     Alice->>John: Hello John, how are you;
-    loop Healthcheck
+    loop Healthcheck;
         John->>John: Fight against hypochondria;
-    end
+    end;
     John-->>Alice: Great;
     John->>Bob: How about you;
     Bob-->>John: Jolly good;
