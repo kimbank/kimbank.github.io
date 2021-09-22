@@ -52,22 +52,22 @@ classDiagram;
     Animal : String gender;
     Animal : isMammal;
     Animal : mate;
-    class Duck
+    class Duck;
     {
         String beakColor;
         swim;
         quack;
-    }
-    class Fish
+    };
+    class Fish;
     {
         int sizeInFeet;
         canEat;
-    }
-    class Zebra
+    };
+    class Zebra;
     {
         bool is_wild;
         run;
-    }
+    };
 
 </div>
 
