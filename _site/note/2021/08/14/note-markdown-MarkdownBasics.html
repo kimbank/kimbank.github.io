@@ -32,7 +32,7 @@ Powered by Hydejack v6.4.0 (https://qwtel.com/hydejack/)
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="format-detection" content="telephone=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta property="og:title" content="[IDE 탐구] #00 IDE와 소프트웨어 개발">
+<meta property="og:title" content="마크다운(Markdown) 기본 문법">
 <meta property="og:type" content="article">
 
 <!-- Google Tag Manager -->
@@ -65,25 +65,13 @@ Powered by Hydejack v6.4.0 (https://qwtel.com/hydejack/)
 
 
 
-  <title>[IDE 탐구] #00 IDE와 소프트웨어 개발 &middot; KimBank</title>
+  <title>마크다운(Markdown) 기본 문법 &middot; KimBank</title>
 
 
 
-<meta name="description" content="목차
-
-  IDE (Integrated Development Environment)
-  SDK (Software Development Kit)
-  API (Application Programming Interface)
-
-
+<meta name="description" content="MarkDown Basics
 ">
-<meta property="og:description" content="목차
-
-  IDE (Integrated Development Environment)
-  SDK (Software Development Kit)
-  API (Application Programming Interface)
-
-
+<meta property="og:description" content="MarkDown Basics
 ">
 
 
@@ -92,15 +80,17 @@ Powered by Hydejack v6.4.0 (https://qwtel.com/hydejack/)
 <!-- =============== -->
 <!-- LINKS           -->
 <!-- =============== -->
-<link rel="canonical" href="http://localhost:4000/insight/2021/09/16/insight-IT-IDE-%ED%83%90%EA%B5%AC-00.html">
-<meta property="og:url" content="http://localhost:4000/insight/2021/09/16/insight-IT-IDE-%ED%83%90%EA%B5%AC-00.html">
+<link rel="canonical" href="http://localhost:4000/note/2021/08/14/note-markdown-MarkdownBasics.html">
+<meta property="og:url" content="http://localhost:4000/note/2021/08/14/note-markdown-MarkdownBasics.html">
 
 <link rel="alternate" type="application/atom+xml" title="KimBank Feed" href="http://localhost:4000/feed.xml">
 
 
-  <link rel="prev" href="http://localhost:4000/insight/2021/09/14/insight-IT-%EC%BD%94%EB%94%A9%EA%B3%BC-%EC%A4%91%EA%B4%84%ED%98%B8-%EA%B7%9C%EC%B9%99.html">
+  <link rel="prev" href="http://localhost:4000/project/2021/07/20/project-LB-QuantHistory.html">
 
 
+
+  <link rel="next" href="http://localhost:4000/note/2021/09/03/note-python-PythonFeatures.html">
 
 
 <link rel="apple-touch-icon" href="http://localhost:4000/apple-touch-icon.png">
@@ -189,17 +179,17 @@ Powered by Hydejack v6.4.0 (https://qwtel.com/hydejack/)
     <main id="_main" class="content" role="main" data-color="#4f86aa" data-image="/assets/img/main_left.jpg">
       
 
-<article id="post-insight/2021/09/16/insight-IT-[IDE 탐구]00" class="post" role="article">
+<article id="post-note/2021/08/14/note-markdown-MarkdownBasics" class="post" role="article">
   <header>
 
     <h1 class="post-title">
       
-        [IDE 탐구] #00 IDE와 소프트웨어 개발
+        마크다운(Markdown) 기본 문법
       
     </h1>
 
     <p class="post-date heading">
-      <time datetime="2021-09-16T14:51:00+09:00">2021 Sep 16</time>
+      <time datetime="2021-08-14T13:00:00+09:00">2021 Aug 14</time>
       
 
 
@@ -210,7 +200,7 @@ Powered by Hydejack v6.4.0 (https://qwtel.com/hydejack/)
 
 
 
- &nbsp;&nbsp;&nbsp;/ <a href="/category/insight/" data-flip="title">insight</a>
+ &nbsp;&nbsp;&nbsp;/ <a href="/category/note/" data-flip="title">note</a>
 
       
 
@@ -222,14 +212,19 @@ Powered by Hydejack v6.4.0 (https://qwtel.com/hydejack/)
 
 
 
- / <a href="/tag/insight-it/" data-flip="title">IT</a>
+ / <a href="/tag/note-markdown/" data-flip="title">markdown</a>
 
     </p>
 
-    
-  <div class="hr" style="padding-bottom:0"></div>
+    <!-- 
+  
+  
+<p class="message">MarkDown Basics</p>
 
 
+
+ -->
+    Description Under the Title
   </header>
   
 
@@ -259,64 +254,223 @@ Powered by Hydejack v6.4.0 (https://qwtel.com/hydejack/)
 
       <!--게시물 내용-->
       <h1 id="목차">목차</h1>
+
 <ul>
-  <li><a href="#ide-integrated-development-environment">IDE (Integrated Development Environment)</a></li>
-  <li><a href="#sdk-software-development-kit">SDK (Software Development Kit)</a></li>
-  <li><a href="#api-application-programming-interface">API (Application Programming Interface)</a></li>
+  <li><a href="#header"><strong>제목</strong> <sub><sub><sup><em>Header</em></sup></sub></sub></a></li>
+  <li><a href="#emphasis"><strong>강조</strong> <sub><sub><sup><em>Emphasis</em></sup></sub></sub></a>
+    <ul>
+      <li><a href="#italic">이텔릭체 <sub><sub><sup><em>Italic</em></sup></sub></sub></a></li>
+      <li><a href="#bold">볼드체 <sub><sub><sup><em>Bold</em></sup></sub></sub></a></li>
+      <li><a href="#strike-out">취소선 <sub><sub><sup><em>Strike-Out</em></sup></sub></sub></a></li>
+    </ul>
+  </li>
+  <li><a href="#tables"><strong>표</strong> <sub><sub><sup><em>Tables</em></sup></sub></sub></a></li>
 </ul>
 
-<p>소프트웨어 개발을 하기 위한 구성 요소들을 알 필요가 있어서 <code class="highlighter-rouge">IDE</code>, <code class="highlighter-rouge">SDK</code>, <code class="highlighter-rouge">API</code>로 구분해 놓았다.</p>
+<h1 id="목차-활용"><strong>목차 활용</strong></h1>
 
-<h1 id="ide-integrated-development-environment">IDE (Integrated Development Environment)</h1>
-
-<blockquote>
-  <p><a href="https://medium.com/developerinsider/whats-new-in-xcode-10-fddeab035d05"><img src="https://miro.medium.com/max/4000/0*b4bgL-NR2GorAQw2" alt="" /></a>
-<em>&gt; Mac OS에서만 이용가능한 IDE인 Xcode이다.</em></p>
-</blockquote>
-
-<p><code class="highlighter-rouge">Integrated Development Environment</code>의 약자로 직역하면 <code class="highlighter-rouge">통합 개발 환경</code> 정도가 된다.
-<code class="highlighter-rouge">IDE</code>는 대체적으로 하나의 서비스 또는 프로그램을 개발하기 위한 도구인 코드편집기, 컴파일러, 디버거 등을 제공한다.
-사진속에서 <code class="highlighter-rouge">IOS</code>의 어플리케이션을 제작하고 테스트하는 것이 보인다.
-위와 같이, 프로그램을 만들고, 테스트를 하는 등 하나의 소프트웨어 제작을 위한 기능을 제공하는 것이 특징이다.</p>
-
-<p><br /><br /><br /></p>
-
-<h1 id="sdk-software-development-kit">SDK (Software Development Kit)</h1>
+<p>마크다운 문법 활용</p>
 
 <blockquote>
-  <p><a href="https://www.wikihow.com/Install-the-Java-Software-Development-Kit"><img src="https://www.wikihow.com/images/thumb/c/cb/Install-the-Java-Software-Development-Kit-Step-20-Version-4.jpg/aid123595-v4-728px-Install-the-Java-Software-Development-Kit-Step-20-Version-4.jpg.webp" alt="" /></a>
-<em>&gt; <code class="highlighter-rouge">JDK</code>의 설치를 확인하는 장면이다.</em></p>
+  <p><strong>1. 최상위 <a href="#header">제목<sup><sub><sup><em>Header</em></sup></sub></sup></a>은 <a href="#bold">볼드체<sup><sub><sup><em>Bold</em></sup></sub></sup></a>를 사용한다.</strong></p>
+
+  <p><sub><em>예시)</em></sub></p>
+
+  <h1 id="contents-table">Contents Table</h1>
+
+  <ul>
+    <li><a href="#Example"><strong>Example</strong> </a></li>
+  </ul>
 </blockquote>
 
-<p><code class="highlighter-rouge">Software Development kit</code>의 약자로 직역하면 <code class="highlighter-rouge">소프트웨어 개발 도구</code> 정도가 된다.
-일반적으로 운영체제를 개발한 개발사가 해당 운영체제의 시장 장악을 위해 배포한다.
-예시로는 <code class="highlighter-rouge">Oracle</code>에서 <code class="highlighter-rouge">JAVA</code>라는 프로그래밍 언어를 이용한 소프트웨어 개발을 돕기 위해 배포한 <a href="https://www.oracle.com/java/technologies/downloads/#java16"><code class="highlighter-rouge">JDK(Java Development Kit)</code></a>가 있다.</p>
+<hr />
 
-<p><code class="highlighter-rouge">SDK</code>는 위의 사진과 같이 <code class="highlighter-rouge">UI(User Interface)</code>를 제공하지 않기도 한다.
-반면 <code class="highlighter-rouge">IDE</code>는 위의 <a href="#ide-integrated-development-environment">Xcode사진</a>와 같이 개발의 생산성을 높여주는 <code class="highlighter-rouge">UI</code>를 제공한다.</p>
-
-<p><br /><br /><br /></p>
-
-<h1 id="api-application-programming-interface">API (Application Programming Interface)</h1>
 <blockquote>
-  <p><img src="/assets/posts_image/insight_IT/kiwoomKOA.jpg" alt="" />
-<em>&gt; 키움증권에서 <code class="highlighter-rouge">OpenAPI</code>사용자를 위해 제작한 문서의 일부분이다.</em></p>
+  <p><strong>2. 제목에 영어로 부제를 추가할 때에는 <a href="#superscript">위 첨자<sup><sub><sup><em>Superscript</em></sup></sub></sup></a> 한 번과 <a href="#subscript">아래 첨자<sup><sub><sup><em>Subscript</em></sup></sub></sup></a> 두 번 사용한다.</strong></p>
+
+  <p><sub><em>예시)</em></sub></p>
+
+  <h1 id="contents-table-1">Contents Table</h1>
+
+  <ul>
+    <li><a href="#Example"><strong>Example</strong> <sub><sub><sup><em>Example</em></sup></sub></sub></a></li>
+  </ul>
 </blockquote>
 
-<p><code class="highlighter-rouge">Application Programming Interface</code>의 약자로 직역하면 <code class="highlighter-rouge">응용 프로그래밍 인터페이스</code> 정도가 된다.
-요즘은 다양한 서비스들이 서로 상호작용하는 경우가 많다.
-<code class="highlighter-rouge">API</code>는 이미 존재하는 서비스의 데이터를 나의 소프트웨어로 불러오는데 도움을 준다.</p>
+<hr />
 
-<p>예시로는, 키움증권에서 제공하는 <a href="https://www.kiwoom.com/h/customer/download/VOpenApiInfoView?dummyVal=0"><code class="highlighter-rouge">OpenAPI</code></a>를 통해 키움증권의 거래 데이터를 불러 오는 것이 있다.
-만약 주식거래 인공지능 소프트웨어를 개발중인 상황이라면, 인공지능의 학습을 위한 주식거래 데이터가 필요할 것이다.
-주식거래의 데이터를 <code class="highlighter-rouge">OpenAPI</code>로 불러와서 인공지능을 학습시키는 데에 사용하면 된다.</p>
+<h1 id="제목-header"><strong>제목</strong> <sub><sub><sup><em>Header</em></sup></sub></sub></h1>
 
-<p>단적이 예일 뿐, <code class="highlighter-rouge">API</code>는 제공하는 주체에 따라 기능이 매우 다양하고 그만큼 활용할 수 있는 방법의 수도 다양하다.</p>
+<p><code class="highlighter-rouge">&lt;h1&gt;</code>부터 <code class="highlighter-rouge">&lt;h6&gt;</code>까지 제목을 정할 수 있다.</p>
 
-<p><br /><br /><br />
-<sup><sub> <a href="#목차">목차</a> </sub></sup></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 제목 1
 
-<p><!-- <sub><sup>[]</sup></sub> --></p>
+## 제목 2
+
+### 제목 3
+
+#### 제목 4
+
+##### 제목 5
+
+###### 제목 6
+</code></pre></div></div>
+
+<h1 id="강조-emphasis"><strong>강조</strong> <sub><sub><sup><em>Emphasis</em></sup></sub></sub></h1>
+
+<h2 id="이텔릭체-italic">이텔릭체 <sub><sub><sup><em>Italic</em></sup></sub></sub></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>MarkDown</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">*Example*</code></td>
+      <td><em>Example</em></td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">_Example_</code></td>
+      <td><em>Example</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="볼드체-bold">볼드체 <sub><sub><sup><em>Bold</em></sup></sub></sub></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>MarkDown</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">**Example**</code></td>
+      <td><strong>Example</strong></td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">__Example__</code></td>
+      <td><strong>Example</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="이텔릭체--볼드체">이텔릭체 &amp; 볼드체</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>MarkDown</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">***Example***</code></td>
+      <td><strong><em>Example</em></strong></td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">___Example___</code></td>
+      <td><strong><em>Example</em></strong></td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">_**Example**_</code></td>
+      <td><em><strong>Example</strong></em></td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">*__Example__*</code></td>
+      <td><em><strong>Example</strong></em></td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">__*Example*__</code></td>
+      <td><strong><em>Example</em></strong></td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">**_Example_**</code></td>
+      <td><strong><em>Example</em></strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><code class="highlighter-rouge">___Example___</code><em>이 효율적임</em></p>
+
+<h2 id="취소선-strike-out">취소선 <sub><sub><sup><em>Strike-Out</em></sup></sub></sub></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>MarkDown</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">~~Example~~</code></td>
+      <td><del>Example</del></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="위-첨자-superscript">위 첨자 <sub><sub><sup><em>Superscript</em></sup></sub></sub></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>MarkDown</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">Example&lt;sup&gt;Example&lt;/sup&gt;</code></td>
+      <td>Example<sup>Example</sup></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="아래-첨자-subscript">아래 첨자 <sub><sub><sup><em>Subscript</em></sup></sub></sub></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>MarkDown</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">Example&lt;sub&gt;Example&lt;/sub&gt;</code></td>
+      <td>Example<sub>Example</sub></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="표-tables"><strong>표</strong> <sub><sub><sup><em>Tables</em></sup></sub></sub></h1>
+
+<h2 id="표-생성">표 생성</h2>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Example 1 | Example 2 |
+| --------- | --------- |
+| Content 1 | Content 2 |
+</code></pre></div></div>
+
+<h2 id="표-정렬">표 정렬</h2>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Example 1 | Example 2 | Example3 |
+| :-------- | :-------: | -------: |
+| Left      |  Middle   |    Right |
+</code></pre></div></div>
+
+<p><sup><sub> <a href="#목차">목차</a> </sub></sup></p>
+
+<hr />
 
       <br/>
       <!-- 블로그-하단-반응형 
@@ -345,12 +499,12 @@ Powered by Hydejack v6.4.0 (https://qwtel.com/hydejack/)
   <!-- <div class="share">
       <h2>Share this post</h2>
       <div class="share-body">
-        <a href="http://twitter.com/share?text=[IDE 탐구] #00 IDE와 소프트웨어 개발&amp;url=http://localhost:4000/insight/2021/09/16/insight-IT-IDE-%ED%83%90%EA%B5%AC-00.html"
+        <a href="http://twitter.com/share?text=마크다운(Markdown) 기본 문법&amp;url=http://localhost:4000/note/2021/08/14/note-markdown-MarkdownBasics.html"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
             <span class="icon-twitter">
             </span>
         </a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/insight/2021/09/16/insight-IT-IDE-%ED%83%90%EA%B5%AC-00.html"
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/note/2021/08/14/note-markdown-MarkdownBasics.html"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
             <span class="icon-facebook">
             </span>
@@ -407,24 +561,40 @@ Powered by Hydejack v6.4.0 (https://qwtel.com/hydejack/)
       
       
         
+        
           
-          
+
+
+<li class="h4">
+  <a href="/note/2021/09/05/note-AI-AIandCoursera.html" data-flip="title">
+    <span>AI와 코세라(Coursera) 강의</span>
+  </a>
+  <small><time datetime="2021-09-05T13:50:00+09:00">
+    05 Sep 2021
+  </time></small>
+</li>
+
+        
+      
         
         
           
 
 
 <li class="h4">
-  <a href="/insight/2021/09/14/insight-IT-%EC%BD%94%EB%94%A9%EA%B3%BC-%EC%A4%91%EA%B4%84%ED%98%B8-%EA%B7%9C%EC%B9%99.html" data-flip="title">
-    <span>코딩과 중괄호</span>
+  <a href="/note/2021/09/03/note-python-PythonFeatures.html" data-flip="title">
+    <span>파이썬(Python) 특징</span>
   </a>
-  <small><time datetime="2021-09-14T00:17:00+09:00">
-    14 Sep 2021
+  <small><time datetime="2021-09-03T13:00:00+09:00">
+    03 Sep 2021
   </time></small>
 </li>
 
         
       
+        
+          
+          
     
   </ul>
 </aside>

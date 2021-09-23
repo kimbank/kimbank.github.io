@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "마크다운(Markdown) 기본 문법"
+description: >
+  MarkDown Basics
 subtitle: ""
 date: 2021-08-14 13:00:00 +0900
 categories: note

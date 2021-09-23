@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "[IDE 탐구] #00 IDE와 소프트웨어 개발"
+description: >
+  IDE #00
 subtitle: ""
 date: 2021-09-16 14:51:00 +0900
 categories: insight

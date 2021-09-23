@@ -15,7 +15,9 @@
       {% include tag-list.html tags=post.tags meta=site.featured_tags start_with=" / " separator=", " %}
     </p>
 
-    {% include message.html text=post.description %}
+    <!-- {% include message.html text=post.description %} -->
+    <!-- Description Under the Title -->
+
   </header>
   {% for tag_slug in post.tags %}
     {% unless tag.header-img %}

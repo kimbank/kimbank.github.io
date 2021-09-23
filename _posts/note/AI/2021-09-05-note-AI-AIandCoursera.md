@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "AI와 코세라(Coursera) 강의"
+description: >
+  AI and Couresra
 subtitle: ""
 date: 2021-09-05 13:50:00 +0900
 categories: note

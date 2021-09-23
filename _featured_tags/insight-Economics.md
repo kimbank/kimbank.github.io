@@ -5,4 +5,6 @@ slug: Economics
 category: insight
 menu: false
 order: 1
+description: >
+  Economics
 ---

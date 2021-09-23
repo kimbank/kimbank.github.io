@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "퀀트의 역사"
+description: >
+  Quant History
 subtitle: ""
 date: 2021-07-20 16:11:11 +0900
 categories: project

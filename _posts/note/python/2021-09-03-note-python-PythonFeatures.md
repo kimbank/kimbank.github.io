@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "파이썬(Python) 특징"
+description: >
+  Python Features
 subtitle: ""
 date: 2021-09-03 13:00:00 +0900
 categories: note

@@ -5,4 +5,6 @@ slug: IT
 category: insight
 menu: false
 order: 1
+description: >
+  IT
 ---

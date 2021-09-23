@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "코딩과 중괄호"
+description: >
+  Coding and Curly Brackets
 subtitle: ""
 date: 2021-09-14 00:17:00 +0900
 categories: insight

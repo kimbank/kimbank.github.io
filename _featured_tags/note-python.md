@@ -5,4 +5,6 @@ slug: python
 category: note
 menu: false
 order: 3
+description: >
+  python
 ---
