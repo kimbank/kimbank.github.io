@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "퀀트의 역사"
+title: "test"
 description: >
   Quant History
 subtitle: ""
