@@ -4,7 +4,7 @@ title: IT
 slug: IT
 category: insight
 menu: false
-order: 1
+order: 3
 description: >
   IT
 ---

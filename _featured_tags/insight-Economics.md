@@ -4,7 +4,7 @@ title: Econommics
 slug: Economics
 category: insight
 menu: false
-order: 1
+order: 2
 description: >
   Economics
 ---
