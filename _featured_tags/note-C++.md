@@ -1,6 +1,6 @@
 ---
 layout: list
-title: c++
+title: C++ㅤ
 slug: cpp
 category: note
 menu: false
