@@ -6,5 +6,5 @@ category: note
 menu: false
 order: 1
 description: >
-  AI
+  C
 ---
