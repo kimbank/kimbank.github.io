@@ -1,10 +1,10 @@
 ---
 layout: list
-title: C++ㅤ
+title: CP+ㅤ
 slug: cpp
 category: note
 menu: false
-order: 2
+order: 3
 description: >
   C++
 ---

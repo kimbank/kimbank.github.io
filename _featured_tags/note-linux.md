@@ -4,7 +4,7 @@ title: linux
 slug: linux
 category: note
 menu: false
-order: 4
+order: 5
 description: >
   linux
 ---
