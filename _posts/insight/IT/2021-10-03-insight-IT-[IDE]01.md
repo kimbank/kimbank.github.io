@@ -24,8 +24,10 @@ related_posts: false
 
 [`Dev C++ 공식홈페이지`](https://www.bloodshed.net/) [https://www.bloodshed.net/](https://www.bloodshed.net/)
 
+개발 지원 언어는 `C`와 `C++`이다.
+
 `Dev C++`는 나름 `IDE`로서 디버깅과 컴파일을 지원한다.
-고등학교 시절 컴퓨터 프로그래밍 동아리에 들어갔었는데 그곳에서 Dev C++를 사용하도록 했었다.
+고등학교 시절 컴퓨터 프로그래밍 동아리에 들어갔었는데 그곳에서 `Dev C++`를 사용하도록 했었다.
 입문자들이 사용하기에는 손색이 없는 쓸만한 `IDE`이다.
 오픈소스 소프트웨어인데 지금은 업데이트가 중단 되었다고 한다.
 
