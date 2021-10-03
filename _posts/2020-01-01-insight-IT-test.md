@@ -35,5 +35,5 @@ related_posts: false
   }
 </style>
 
-<div>이 컴퓨터의 IP 주소: <span id="client-ip"></span></div>
+<div>이 컴퓨터의 IP 주소 ver2: <span id="client-ip"></span></div>
 
