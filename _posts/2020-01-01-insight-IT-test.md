@@ -11,6 +11,12 @@ comments: false
 related_posts: false
 ---
 
+
+
+
+
+<div>이 컴퓨터의 IP 주소: <span id="client-ip"></span></div>
+
 <script>
   // HTML의 <script> 요소를 생성한다
   const se = document.createElement('script');
@@ -27,13 +33,3 @@ related_posts: false
     document.getElementById('client-ip').textContent = data.ip;
   }
 </script>
-
-
-<style>
-  #client-ip {
-    color: #ff80ab;
-  }
-</style>
-
-<div>이 컴퓨터의 IP 주소: <span id="client-ip"></span></div>
-
