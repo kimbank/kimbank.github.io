@@ -11,19 +11,20 @@ comments: false
 related_posts: false
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/5/5d/Dev-C%2B%2B_logo.png)
 
 # 목차
- -[Dev C++란](#dev-c란)
+ - [Dev C++란](#dev-c란)
+
+<!-- ![](https://upload.wikimedia.org/wikipedia/commons/5/5d/Dev-C%2B%2B_logo.png) -->
 
 <br/><br/>
 
 
 # Dev C++란 
 
-[`Dev C++ 공식홈페이지`](https://www.bloodshed.net/)
+[`Dev C++ 공식홈페이지`](https://www.bloodshed.net/) [https://www.bloodshed.net/](https://www.bloodshed.net/)
 
-`Dev C++`는 나름 통합 개발 환경으로써 디버깅과 컴파일을 지원한다.
+`Dev C++`는 나름 `IDE`로서 디버깅과 컴파일을 지원한다.
 고등학교 시절 컴퓨터 프로그래밍 동아리에 들어갔었는데 그곳에서 Dev C++를 사용하도록 했었다.
 입문자들이 사용하기에는 손색이 없는 쓸만한 `IDE`이다.
 오픈소스 소프트웨어인데 지금은 업데이트가 중단 되었다고 한다.
