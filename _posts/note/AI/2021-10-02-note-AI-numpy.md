@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NumPy 패키지 알아보기"
+title: "NumPy 패키지"
 description: >
   NumPy
 subtitle: ""
