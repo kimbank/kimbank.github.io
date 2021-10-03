@@ -16,6 +16,7 @@ related_posts: false
  - [Underscore](#underscore)
  - [Upper Camel Case](#upper-camel-case)
  - [Lower Camel Case](#lower-camel-case)
+ - [Google Style Guide](#google-style-guide)
 
 <br/>
 
@@ -84,7 +85,7 @@ int sampleNum2 = 200;
 
 
 
-# Google Style
+# Google Style Guide
 구글은 이름짓기`(Naming)`에 대한 가이드 라인을 가지고 있다.
 [https://google.github.io/styleguide/cppguide.html#Naming](https://google.github.io/styleguide/cppguide.html#Naming)
 
