@@ -1,0 +1,51 @@
+insight-COMPANY_RESERACH : FOUNT (https://fount.co/)
+insight-COMPANY_RESERACH : QRAFT (https://www.qraftec.com/)
+insight-COMPANY_RESERACH : Preferred Networks (https://www.preferred.jp/ja/)
+insight-COMPANY_RESERACH : DeepMind (https://deepmind.com/)
+
+
+
+-----   https://www.cmegroup.com/   -----
+insight-economics : Candlestick chart (https://en.wikipedia.org/wiki/Candlestick_chart)
+insight-economics : Fibonacci retracement (https://en.wikipedia.org/wiki/Fibonacci_retracement)
+
+
+
+insight-IT : [IDE탐구] #02 Visual Studio
+insight-IT : [IDE탐구] #03 Xcode
+insight-IT : [IDE탐구] #04 Eclipse                                       (https://en.wikipedia.org/wiki/Eclipse_(software))
+insight-IT : [IDE탐구] #05 
+insight-IT : [IDE탐구 번외] #0 Text Editor와 소프트웨어 개발
+insight-IT : [IDE탐구 번외] #1 Vi
+insight-IT : [IDE탐구 번외] #2 Visual Studio Code
+
+
+
+insight-IT : [OS탐구] #00 Operating System과 컴퓨터
+insight-IT : [OS탐구] #01 UNIX
+insight-IT : [OS탐구] #02 DOS
+insight-IT : [OS탐구] #03 LINUX
+insight-IT : [OS탐구] #04 WINDOWS
+insight-IT : [OS탐구] #05 MacOS
+insight-IT : [OS탐구] #06 Android
+insight-IT : [OS탐구] #07 iOS
+
+
+
+insight-IT : [Programming Language탐구] #00 프로그래밍 언어 역사
+insight-IT : [Programming Language탐구] #01 C언어
+insight-IT : [Programming Language탐구] #02 C++
+insight-IT : [Programming Language탐구] #03 C#
+insight-IT : [Programming Language탐구] #04 Objective-C
+insight-IT : [Programming Language탐구] #05 Swift
+insight-IT : [Programming Language탐구] #06 Java
+insight-IT : [Programming Language탐구] #07 JavaScript
+insight-IT : [Programming Language탐구] #08 Python
+
+
+
+note-linux : [Linux탐구] #00 리눅스 계열
+note-linux : [Linux탐구] #01 우분투
+note-linux : [Linux탐구] #02 하모니카
+note-linux : [Linux탐구] #03 데비안
+note-linux : [Linux탐구] #04 칼리 리눅스
