@@ -2,6 +2,70 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
+      <loc>http://localhost:4000/note/2021/10/24/note-javascript-initial.html</loc>
+      
+        <lastmod>2021-10-24T19:19:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>1.0</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/note/2021/10/19/note-python-Python-print.html</loc>
+      
+        <lastmod>2021-10-19T20:52:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>1.0</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/insight/2021/10/03/insight-IT-naming.html</loc>
+      
+        <lastmod>2021-10-03T19:19:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>1.0</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/insight/2021/10/03/insight-IT-IDE-01.html</loc>
+      
+        <lastmod>2021-10-03T18:37:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>1.0</priority>
+      
+
+    </url>
+  
+    <url>
       <loc>http://localhost:4000/note/2021/10/02/note-AI-numpy.html</loc>
       
         <lastmod>2021-10-02T23:23:00+09:00</lastmod>
@@ -101,6 +165,22 @@
       <loc>http://localhost:4000/project/2021/07/20/project-LB-QuantHistory.html</loc>
       
         <lastmod>2021-07-20T16:11:11+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>1.0</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/insight/2020/01/01/insight-IT-test.html</loc>
+      
+        <lastmod>2020-01-01T00:00:01+09:00</lastmod>
       
 
       

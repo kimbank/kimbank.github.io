@@ -1,16 +1,270 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>KimBank</title>
+    <title>GoldBank</title>
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Oct 2021 00:59:48 +0900</pubDate>
-    <lastBuildDate>Sun, 03 Oct 2021 00:59:48 +0900</lastBuildDate>
+    <pubDate>Sun, 24 Oct 2021 19:57:11 +0900</pubDate>
+    <lastBuildDate>Sun, 24 Oct 2021 19:57:11 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
-        <title>NumPy 패키지 알아보기</title>
+        <title>javascript quiz</title>
+        <description>&lt;script&gt;
+const quizDisplay = document.getElementById('quiz');
+const submitBtn = document.getElementById('submit');
+const resultDisplay = document.getElementById('result');
+
+function buildQuiz(){
+   const output = [ ]; 
+    quizData.forEach(  
+        (currentQuestion, questionNum) =&gt; { 
+                    const answers = [ ];     
+                    for(item in currentQuestion.answers){  
+                                answers.push(`&lt;label&gt;
+                                             &lt;input type=&quot;radio&quot; name=&quot;question${questionNum}&quot; value=&quot;${item}&quot;&gt;
+                                                 ${item} : ${currentQuestion.answers[item]}
+                                             &lt;/label&gt;`);
+                       }
+                          output.push(`&lt;div class=&quot;question&quot;&gt; ${currentQuestion.question}&lt;/div&gt;
+                                       &lt;div class=&quot;answer&quot;&gt;${answers.join('')}&lt;/div&gt;`);
+                 }              
+    );
+       quizDisplay.innerHTML = output.join('&lt;/br&gt;');
+ }
+
+function showResult(){
+      const answerDisplays = quizDisplay.querySelectorAll('.answer');  
+        let numCorrect = 0; 
+
+         quizData.forEach( (currentQuestion, questionNum)=&gt;{
+                const answerDisplay = answerDisplays[questionNum]; 
+                const selector = `input[name=question${questionNum}]:checked`;  
+                const userAnswer = (answerDisplay.querySelector(selector) || {}).value;  
+
+
+                 if(userAnswer === currentQuestion.correct){    
+                         numCorrect++;
+                         answerDisplays[questionNum].style.color = 'lightgreen';
+                 }else{
+                         answerDisplays[questionNum].style.color = 'red';
+                 }
+         });
+           resultDisplay.innerHTML = `${numCorrect} out of ${quizData.length}`; 
+ }
+
+ buildQuiz(); 
+ submitBtn.addEventListener('click',showResult);
+&lt;/script&gt;
+
+&lt;div id=&quot;quiz&quot;&gt; &lt;/div&gt;
+&lt;p&gt;&lt;button id=&quot;submit&quot; style=&quot;border:1px solid tomato; margin:2px; border-radius:5px; color:tomato;&quot;&gt; Submit &lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;result&quot;&gt; &lt;/div&gt;
+
+&lt;script&gt;
+  const quizData = [
+  {
+      question : '웹개발에 주로 사용되는 프론트언어는?',
+      answers : {
+         a : &quot;일본어&quot;,
+         b : &quot;다랑어&quot;,
+         c : &quot;자바스크립트&quot;,
+         d : &quot;sample&quot;
+      },
+     correct : 'c'
+  },
+  {
+      question : '웹 디자인에 사용되는 언어는?',
+      answers : {
+          a : '미싱',
+          b : 'css',
+          c : '돈까s'
+      },
+     correct : 'b'
+  },
+  {
+        question : '블로그 형태로 웹사이트를 쉽게 개발할 수 있는 방식을 무엇이라고 하는가?',
+        answers : {
+              a : 'CMS',
+              b : 'WAX',
+              c : 'KISWISS'
+        },
+     correct : 'a'
+  }
+  ]
+&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 24 Oct 2021 19:19:00 +0900</pubDate>
+        <link>http://localhost:4000/note/2021/10/24/note-javascript-initial.html</link>
+        <guid isPermaLink="true">http://localhost:4000/note/2021/10/24/note-javascript-initial.html</guid>
+        
+        <category>javascript</category>
+        
+        
+        <category>note</category>
+        
+      </item>
+    
+      <item>
+        <title>파이썬(Python) print</title>
+        <description>&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;1-print-함수&quot;&gt;1. print 함수&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;괄호 안의 값을 출력하는 역할을 한다.&lt;/li&gt;
+  &lt;li&gt;콤마로 구분시 공백이 포함된다. &lt;em&gt;(&lt;code class=&quot;highlighter-rouge&quot;&gt;, sep=' '&lt;/code&gt;이 기본이다.)&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;함수 종료시점에 줄바꿈이 일어난다. &lt;em&gt;(&lt;code class=&quot;highlighter-rouge&quot;&gt;, end='\n'&lt;/code&gt;이 기본이다.)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 19 Oct 2021 20:52:00 +0900</pubDate>
+        <link>http://localhost:4000/note/2021/10/19/note-python-Python-print.html</link>
+        <guid isPermaLink="true">http://localhost:4000/note/2021/10/19/note-python-Python-print.html</guid>
+        
+        <category>python</category>
+        
+        
+        <category>note</category>
+        
+      </item>
+    
+      <item>
+        <title>코딩과 이름짓기</title>
+        <description>&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#underscore&quot;&gt;Underscore&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#upper-camel-case&quot;&gt;Upper Camel Case&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#lower-camel-case&quot;&gt;Lower Camel Case&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#google-style-guide&quot;&gt;Google Style Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.vlpt.us/images/ggob_2/post/d08477db-9827-4e13-8a9b-a2b5a7d07954/%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%20%EA%B3%A0%EC%B6%A9.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;위의 이미지에서 알 수 있듯이 코딩하는 과정에서 이름짓는 것은 힘든 일이다.
+새로운 게임을 시작할 때에 닉네임을 짓는 것도 많은 고민이 필요하듯이 변수와 함수 등의 이름을 짓는 일은 많은 고민을 필요로 한다.
+협업을 하게 된다면 동료들에게 피해를 주지 않기 위해 이름짓는 규칙을 정하는 것이 중요할 것이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;!--------------------------------- # 목차 -----------------------------&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;underscore&quot;&gt;Underscore&lt;/h1&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sample_num1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sample_num2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;단어의 구분을 언더바 &lt;code class=&quot;highlighter-rouge&quot;&gt;_&lt;/code&gt; 를 통해서 하는 것이 특징이다.
+모두 소문자로 작성한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;!---------------------------- # Underscore -----------------------------&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;upper-camel-case&quot;&gt;Upper Camel Case&lt;/h1&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SampleNum1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SampleNum2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;위와 같은 형식으로 쓰는 것을 &lt;code class=&quot;highlighter-rouge&quot;&gt;Upper Camel Case&lt;/code&gt;라고 한다.
+쌍봉 낙타의 혹과 비슷한 모양으로 대문자로 단어를 구분하는 것이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;!--------------------------- # Upper Camel Case ------------------------&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;lower-camel-case&quot;&gt;Lower Camel Case&lt;/h1&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleNum1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleNum2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#upper-camel-case&quot;&gt;Upper Camel Case&lt;/a&gt;와의 차이점은 맨 앞 단어의 첫 스펠링을 소문자로 작성한다는 것이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;!-------------------------- # Lower Camel Case --------------------------&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;google-style-guide&quot;&gt;Google Style Guide&lt;/h1&gt;
+&lt;p&gt;구글은 이름짓기&lt;code class=&quot;highlighter-rouge&quot;&gt;(Naming)&lt;/code&gt;에 대한 가이드 라인을 가지고 있다.
+&lt;a href=&quot;https://google.github.io/styleguide/cppguide.html#Naming&quot;&gt;https://google.github.io/styleguide/cppguide.html#Naming&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;위의 링크는 구글의 가이드라인 페이지이다. 
+유도리 있게 어느정도 팀마다 다른 스타일을 허용하는 듯하다.
+이렇게 하는 것을 권장한다 정도로 생각하면 될 것 같다.&lt;/p&gt;
+
+&lt;p&gt;파일 이름, 디렉토리 이름, 클래스 이름 등 모든 이름짓기에 대한 가이드 라인을 제시한다.
+앞서 소개한 방식들을 혼용하여 사용하는 것으로 보인다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;&lt;sub&gt; &lt;a href=&quot;#목차&quot;&gt;목차&lt;/a&gt; &lt;/sub&gt;&lt;/sup&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Oct 2021 19:19:00 +0900</pubDate>
+        <link>http://localhost:4000/insight/2021/10/03/insight-IT-naming.html</link>
+        <guid isPermaLink="true">http://localhost:4000/insight/2021/10/03/insight-IT-naming.html</guid>
+        
+        <category>IT</category>
+        
+        
+        <category>insight</category>
+        
+      </item>
+    
+      <item>
+        <title>[IDE 탐구] #01 Dev C++</title>
+        <description>&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#dev-c란&quot;&gt;Dev C++란&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- ![](https://upload.wikimedia.org/wikipedia/commons/5/5d/Dev-C%2B%2B_logo.png) --&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;dev-c란&quot;&gt;Dev C++란&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.bloodshed.net/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Dev C++ 공식홈페이지&lt;/code&gt;&lt;/a&gt; &lt;a href=&quot;https://www.bloodshed.net/&quot;&gt;https://www.bloodshed.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;개발 지원 언어는 &lt;code class=&quot;highlighter-rouge&quot;&gt;C&lt;/code&gt;와 &lt;code class=&quot;highlighter-rouge&quot;&gt;C++&lt;/code&gt;이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Dev C++&lt;/code&gt;는 나름 &lt;code class=&quot;highlighter-rouge&quot;&gt;IDE&lt;/code&gt;로서 디버깅과 컴파일을 지원한다.
+고등학교 시절 컴퓨터 프로그래밍 동아리에 들어갔었는데 그곳에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;Dev C++&lt;/code&gt;를 사용하도록 했었다.
+입문자들이 사용하기에는 손색이 없는 쓸만한 &lt;code class=&quot;highlighter-rouge&quot;&gt;IDE&lt;/code&gt;이다.
+오픈소스 소프트웨어인데 지금은 업데이트가 중단 되었다고 한다.&lt;/p&gt;
+
+&lt;p&gt;보통 &lt;code class=&quot;highlighter-rouge&quot;&gt;IDE&lt;/code&gt;들은 프로젝트를 생성할 때에 여러 디렉토리 생성을 강제한다.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Dev C++&lt;/code&gt;는 위의 과정을 생략하고 하나의 파일만으로 컴파일을 할 수 있도록 허용한다.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;PS&lt;/code&gt;를 할 때에 가볍게 진행 할 수 있어 편한 기능이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.bloodshed.net/&quot;&gt;공식홈페이지&lt;/a&gt;의 &lt;code class=&quot;highlighter-rouge&quot;&gt;Dev C++&lt;/code&gt; 화면이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.bloodshed.net/data/_uploaded/image/screenshots/dcpp5_scr-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;공식홈페이지에서 다운로드가 가능하다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;&lt;sub&gt; &lt;a href=&quot;#목차&quot;&gt;목차&lt;/a&gt; &lt;/sub&gt;&lt;/sup&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Oct 2021 18:37:00 +0900</pubDate>
+        <link>http://localhost:4000/insight/2021/10/03/insight-IT-IDE-01.html</link>
+        <guid isPermaLink="true">http://localhost:4000/insight/2021/10/03/insight-IT-IDE-01.html</guid>
+        
+        <category>IT</category>
+        
+        
+        <category>insight</category>
+        
+      </item>
+    
+      <item>
+        <title>NumPy 패키지</title>
         <description>&lt;h1 id=&quot;목차&quot;&gt;목차&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#numpy란&quot;&gt;NumPy란&lt;/a&gt;&lt;/li&gt;
@@ -619,7 +873,7 @@ int main()
       </item>
     
       <item>
-        <title>test</title>
+        <title>test page です</title>
         <description>&lt;h1 id=&quot;test&quot;&gt;test&lt;/h1&gt;
 
 &lt;p&gt;&lt;a onclick=&quot;window.location.reload()&quot; style=&quot;cursor: pointer;&quot;&gt;[새로고침]&lt;/a&gt;&lt;/p&gt;
@@ -723,10 +977,36 @@ sequenceDiagram;
         <link>http://localhost:4000/project/2021/07/20/project-LB-QuantHistory.html</link>
         <guid isPermaLink="true">http://localhost:4000/project/2021/07/20/project-LB-QuantHistory.html</guid>
         
-        <category>LB</category>
+        <category>LM</category>
         
         
         <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>this is test page</title>
+        <description>&lt;div&gt;이 컴퓨터의 IP 주소: &lt;span id=&quot;client-ip&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;script&gt;
+  const se = document.createElement('script');
+  se.src = 'https://ipinfo.io?callback=callback';
+  document.body.appendChild(se);
+  document.body.removeChild(se);
+  function callback(data) {
+    document.getElementById('client-ip').textContent = data.ip;
+  }
+&lt;/script&gt;
+
+</description>
+        <pubDate>Wed, 01 Jan 2020 00:00:01 +0900</pubDate>
+        <link>http://localhost:4000/insight/2020/01/01/insight-IT-test.html</link>
+        <guid isPermaLink="true">http://localhost:4000/insight/2020/01/01/insight-IT-test.html</guid>
+        
+        <category>IT</category>
+        
+        
+        <category>insight</category>
         
       </item>
     
