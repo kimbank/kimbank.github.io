@@ -16,13 +16,13 @@ description: >
 <!-- fontColor=A3DCBE //초록색 -->
 
 
-<a href="https://github.com/kimbank" target = "_blank"><img src="https://capsule-render.vercel.app/api?type=waving&reversal=true&color=6e747e&text=日八冂斤&height=222&fontSize=100&animation=fadeIn&fontColor=b3ffe7" alt="flag"></a>
+<!-- <a href="https://github.com/kimbank" target = "_blank"><img src="https://capsule-render.vercel.app/api?type=waving&reversal=true&color=6e747e&text=日八冂斤&height=222&fontSize=100&animation=fadeIn&fontColor=b3ffe7" alt="flag"></a> -->
 
 </center>
 
 
 <center>
-<img src="assets/img/profile.png" width="333" height="333" alt="My Image">
+<!-- <img src="assets/img/profile.png" width="333" height="333" alt="My Image"> -->
 
 <span style=
 "font-size:170%;
@@ -100,10 +100,6 @@ font-weight:bold">
 
 ## Personal Data
 
-
-
-
-
 ---
 
 > Birth : [2001.08.17](https://en.wikipedia.org/wiki/2001#Births)
@@ -111,6 +107,8 @@ font-weight:bold">
 > Email : <a href="mailto:kimeunhang@inha.edu">kimeunhang@inha.edu</a>
 
 > Github : <a href="https://github.com/kimbank">https://github.com/kimbank</a>
+
+<br/><br/>
 
 ## Education
 
