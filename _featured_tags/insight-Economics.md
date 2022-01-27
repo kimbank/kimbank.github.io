@@ -1,6 +1,6 @@
 ---
 layout: TAG_insight_Economics
-title: Econommics
+title: Economics
 slug: Economics
 category: insight
 menu: false

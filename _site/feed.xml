@@ -5,13 +5,98 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Oct 2021 19:57:11 +0900</pubDate>
-    <lastBuildDate>Sun, 24 Oct 2021 19:57:11 +0900</lastBuildDate>
+    <pubDate>Thu, 27 Jan 2022 15:03:42 +0900</pubDate>
+    <lastBuildDate>Thu, 27 Jan 2022 15:03:42 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
+        <title>주식시장 데이터 세트</title>
+        <description>&lt;h2 id=&quot;quantopia&quot;&gt;Quantopia&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/quantopian&quot;&gt;https://github.com/quantopian&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;현재 사이트는 닫은 상태이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quandl&quot;&gt;Quandl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://data.nasdaq.com/&quot;&gt;https://data.nasdaq.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;정상 작동중인 사이트이다.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 Nov 2021 23:33:00 +0900</pubDate>
+        <link>http://localhost:4000/insight/2021/11/30/insight-Economics-StockDatasets.html</link>
+        <guid isPermaLink="true">http://localhost:4000/insight/2021/11/30/insight-Economics-StockDatasets.html</guid>
+        
+        <category>Economics</category>
+        
+        
+        <category>insight</category>
+        
+      </item>
+    
+      <item>
+        <title>Hits Test</title>
+        <description>&lt;p&gt;&amp;lt;/br&amp;gt;
+&amp;lt;/br&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hits.seeyoufarm.com&quot;&gt;&lt;img src=&quot;https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgoldbank.dev%2Fnote%2F2021%2F11%2F15%2Fnote-markdown-hits.html&amp;amp;count_bg=%2379C83D&amp;amp;title_bg=%23555555&amp;amp;icon=&amp;amp;icon_color=%23E7E7E7&amp;amp;title=view&amp;amp;edge_flat=false&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/br&amp;gt;
+&amp;lt;/br&amp;gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Nov 2021 13:00:00 +0900</pubDate>
+        <link>http://localhost:4000/note/2021/11/15/note-markdown-hits.html</link>
+        <guid isPermaLink="true">http://localhost:4000/note/2021/11/15/note-markdown-hits.html</guid>
+        
+        <category>markdown</category>
+        
+        
+        <category>note</category>
+        
+      </item>
+    
+      <item>
         <title>javascript quiz</title>
-        <description>&lt;script&gt;
+        <description>&lt;div id=&quot;quiz&quot;&gt; &lt;/div&gt;
+&lt;p&gt;&lt;button id=&quot;submit&quot; style=&quot;border:1px solid tomato; margin:2px; border-radius:5px; color:tomato;&quot;&gt; Submit &lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;result&quot;&gt; &lt;/div&gt;
+
+&lt;script&gt;
+  const quizData = [
+  {
+      question : '웹개발에 주로 사용되는 프론트언어는?',
+      answers : {
+         a : &quot;일본어&quot;,
+         b : &quot;다랑어&quot;,
+         c : &quot;자바스크립트&quot;,
+         d : &quot;sample&quot;
+      },
+     correct : 'c'
+  },
+  {
+      question : '웹 디자인에 사용되는 언어는?',
+      answers : {
+          a : '미싱',
+          b : 'css',
+          c : '돈까s'
+      },
+     correct : 'b'
+  },
+  {
+        question : '블로그 형태로 웹사이트를 쉽게 개발할 수 있는 방식을 무엇이라고 하는가?',
+        answers : {
+              a : 'CMS',
+              b : 'WAX',
+              c : 'KISWISS'
+        },
+     correct : 'a'
+  }
+  ]
+&lt;/script&gt;
+
+&lt;script&gt;
 const quizDisplay = document.getElementById('quiz');
 const submitBtn = document.getElementById('submit');
 const resultDisplay = document.getElementById('result');
@@ -56,43 +141,6 @@ function showResult(){
 
  buildQuiz(); 
  submitBtn.addEventListener('click',showResult);
-&lt;/script&gt;
-
-&lt;div id=&quot;quiz&quot;&gt; &lt;/div&gt;
-&lt;p&gt;&lt;button id=&quot;submit&quot; style=&quot;border:1px solid tomato; margin:2px; border-radius:5px; color:tomato;&quot;&gt; Submit &lt;/button&gt;&lt;/p&gt;
-&lt;div id=&quot;result&quot;&gt; &lt;/div&gt;
-
-&lt;script&gt;
-  const quizData = [
-  {
-      question : '웹개발에 주로 사용되는 프론트언어는?',
-      answers : {
-         a : &quot;일본어&quot;,
-         b : &quot;다랑어&quot;,
-         c : &quot;자바스크립트&quot;,
-         d : &quot;sample&quot;
-      },
-     correct : 'c'
-  },
-  {
-      question : '웹 디자인에 사용되는 언어는?',
-      answers : {
-          a : '미싱',
-          b : 'css',
-          c : '돈까s'
-      },
-     correct : 'b'
-  },
-  {
-        question : '블로그 형태로 웹사이트를 쉽게 개발할 수 있는 방식을 무엇이라고 하는가?',
-        answers : {
-              a : 'CMS',
-              b : 'WAX',
-              c : 'KISWISS'
-        },
-     correct : 'a'
-  }
-  ]
 &lt;/script&gt;
 
 </description>
@@ -484,7 +532,7 @@ C언어를 만든 &lt;a href=&quot;https://en.wikipedia.org/wiki/Brian_Kernighan
   &lt;p&gt;&lt;img src=&quot;/assets/posts_image/note_AI/keggle_couresra_master.png&quot; alt=&quot;keggle_couresra_master&quot; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;사실 코세라에서 일전에 &lt;a href=&quot;https://www.coursera.org/learn/machine-learning&quot;&gt;ML(Machine Learning)관련 강의&lt;/a&gt;를 수강한 적이 있었다.
+&lt;p&gt;사실 코세라에서 &lt;a href=&quot;https://www.coursera.org/learn/machine-learning&quot;&gt;ML(Machine Learning)관련 강의&lt;/a&gt;를 수강한 적이 있었다.
 구글링을 하다 알게되어 수강신청을 하고 일부 수강을 했었다. 이 강좌는 스탠포드 대학의 교수인 앤드류 응(Andrew Ng)이 강의한다.
 개설된지 오래되었지만 기초적이고 정석적인 강의로 인터넷 상에서 꽤나 유명했다.
 하지만 나는 영어 강의에 익숙하지 않았어서 포기했었다. 어학 능력을 향상 시키는 김에 이해가 안되더라도 집중해서 다시 수강해 보아야겠다.&lt;/p&gt;
@@ -514,13 +562,12 @@ C언어를 만든 &lt;a href=&quot;https://en.wikipedia.org/wiki/Brian_Kernighan
 &lt;p&gt;코세라강의는 대부분 무료로 제공된다.
 하지만 강의를 듣고 과제를 제출 했다는 인증서는 유료 사용자만 얻을 수 있는 특권이다.
 인증서 제공 강의 사용료는 대략 $30 ~ 100 이다.
-싸게 공부하고 싶은 사람 입장에서는 어느정도 부담되는 가격이다.
-이런 사람들을 위해 존재하는 것이 &lt;strong&gt;재정지원&lt;/strong&gt;이다.
+무료 수강을 원하는 사람들을 위해 &lt;strong&gt;재정지원&lt;/strong&gt;이 존재한다.
 재정지원 말고도 구독기능이 있기는 한데 구독기능을 영리하게 사용하면 지출 비용을 절감할 수 있다.&lt;a href=&quot;https://ydh0110.tistory.com/226&quot;&gt;(어느 블로거의 고찰)&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;재정지원을 하게 되면 두 개의 질문에 대한 자신의 입장을 150~200단어(영어)로 제출해야 한다.
+&lt;p&gt;재정지원을 하게 되면 두 개의 제시문에 대해 150~200단어(영어)로 답변을 제출해야 한다.
 대학교의 필수 수강 수업 의사소통 영어 수업을 1학기에 들었는데 저널이라는 일종의 일기 형식의 보고서를 제출 했어야 했다. 
-저널 작성하면서 애먹었던 경험을 살려 재정지원을 야무지게 써서 신청해 보았다.&lt;/p&gt;
+저널을 작성하였던 경험을 살려 재정지원을 써서 신청해 보았다.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;img src=&quot;/assets/posts_image/note_AI/coursera_financial_aid2.png&quot; alt=&quot;coursera_financial_aid2&quot; /&gt;&lt;/p&gt;
@@ -532,9 +579,7 @@ C언어를 만든 &lt;a href=&quot;https://en.wikipedia.org/wiki/Brian_Kernighan
   &lt;p&gt;&lt;img src=&quot;/assets/posts_image/note_AI/couresra_financial_aid.png&quot; alt=&quot;couresra_financial_aid&quot; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;하지만 코세라가 정해놓은 시간 내에 수업을 활성화 하지 않아 재정지원 활성화가 불가능해진 것으로 추정된다.
-힘겹게 썻지만 노력이 물거품이 되었다.
-어쨋든 코세라가 재정지원을 승인해 준다는 것을 확인하는 계기가 되었다.&lt;/p&gt;
+&lt;p&gt;코세라가 재정지원을 승인해 준다는 것을 확인할 수 있다.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 

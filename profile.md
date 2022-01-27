@@ -104,7 +104,7 @@ font-weight:bold">
 ## Personal Data
 
 
-> Birth : [2001.08.17](https://en.wikipedia.org/wiki/2001#Births)
+> Birth : [2001](https://en.wikipedia.org/wiki/2001#Births)
 >
 > Email : <a href="mailto:kimeunhang@inha.edu"> kimeunhang@inha.edu </a>
 >

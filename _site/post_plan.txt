@@ -49,3 +49,7 @@ note-linux : [Linux탐구] #01 우분투
 note-linux : [Linux탐구] #02 하모니카
 note-linux : [Linux탐구] #03 데비안
 note-linux : [Linux탐구] #04 칼리 리눅스
+
+
+
+WOL

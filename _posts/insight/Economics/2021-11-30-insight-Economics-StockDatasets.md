@@ -4,7 +4,7 @@ title: "주식시장 데이터 세트"
 description: >
   주식시장 데이터 세트
 subtitle: ""
-date: 2020-11-30 23:33:00 +0900
+date: 2021-11-30 23:33:00 +0900
 categories: insight
 tags: Economics
 comments: false
