@@ -7,7 +7,7 @@ description: >
   profile
 ---
 
----
+
 
 
 <!-- <center> -->
@@ -33,11 +33,11 @@ font-weight:bold">
 </span>
 </center>
 
-<center>MAJOR : ECONOMICS</center>
-
 <center>INHA UNIVERSITY</center>
 
-<center>100, Inha-ro, Michuhol-gu, Incheon, Republic of Korea</center>
+<center>Computer Engineering</center>
+
+<!-- <center>100, Inha-ro, Michuhol-gu, Incheon, Republic of Korea</center> -->
 <br/><br/>
 
 
@@ -45,8 +45,8 @@ font-weight:bold">
 
 
 <center>
-<img src="https://camo.githubusercontent.com/68f3a8fc235dbd97bb867691688103dde3157773b695c41fe797290974f86c64/687474703a2f2f6d617a617373756d6e6964612e7774662f6170692f76322f67656e65726174655f62616467653f626f6a3d62616e6c7878"><a>
-<center>
+  <img src="https://camo.githubusercontent.com/68f3a8fc235dbd97bb867691688103dde3157773b695c41fe797290974f86c64/687474703a2f2f6d617a617373756d6e6964612e7774662f6170692f76322f67656e65726174655f62616467653f626f6a3d62616e6c7878">
+</center>
 
 
 
@@ -82,13 +82,13 @@ font-weight:bold">
 
 
 
-<center>
+
 
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 <!-- ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kimbank&theme=graywhite&show_icons=true) -->
 
-<a href="https://github.com/kimbank" target = "_blank"><img src="https://github-readme-stats.vercel.app/api?username=kimbank&theme=vue&show_icons=true" alt="Anurag's GitHub stats"></a>
-
+<center>
+  <a href="https://github.com/kimbank" target = "_blank"><img src="https://github-readme-stats.vercel.app/api?username=kimbank&theme=vue&show_icons=true" alt="Anurag's GitHub stats"></a>
 </center>
 <br/><br/>
 
@@ -100,21 +100,27 @@ font-weight:bold">
 
 
 
+---
 ## Personal Data
 
----
 
 > Birth : [2001.08.17](https://en.wikipedia.org/wiki/2001#Births)
+>
+> Email : <a href="mailto:kimeunhang@inha.edu"> kimeunhang@inha.edu </a>
+>
+> Github : <a href="https://github.com/kimbank"> https://github.com/kimbank </a>
 
-> Email : <a href="mailto:kimeunhang@inha.edu">kimeunhang@inha.edu</a>
+<!-- > Github : [https://github.com/kimbank](https://github.com/kimbank) -->
 
-> Github : <a href="https://github.com/kimbank">https://github.com/kimbank</a>
 
 <br/><br/>
 
-## Education
 
 ---
+## Education
+
+
+
 <!-- 
 > 2008 ~ 2012
 >
@@ -136,6 +142,7 @@ font-weight:bold">
 >
 > **백양고등학교** <sub><sup>_경기도 고양시_</sup></sub> -->
 
-> 2021 ~
+
+> ## 2021 ~
 >
 > **인하대학교** <sub><sup>_인천광역시_</sup></sub>
